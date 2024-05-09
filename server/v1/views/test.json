@@ -1,0 +1,2490 @@
+{
+    "content": [
+      {
+        "id": 201,
+        "name": "National HospitalLugbe",
+        "code": "LUG",
+        "description": "asdfr",
+        "contactPerson": "ifeoluwa",
+        "phoneNumber": "(874) 478-7845",
+        "emailAddress": "j2yemi@gmail.com",
+        "website": "ifeoluwa",
+        "aboutUs": "asdggh",
+        "operatingHours": "24 Hours",
+        "partnership": null,
+        "dateCreated": "2024-03-25T10:23:02.83",
+        "createdBy": 43,
+        "city": [
+          {
+            "id": 1303,
+            "name": "Houston",
+            "code": "HUT",
+            "description": "Houston is a city in Missouri, United states of America, with a populaton of 2082",
+            "zipCode": "65483",
+            "state": {
+              "id": 25,
+              "name": "Missouri",
+              "code": "MO",
+              "description": "Missouri, situated in the Midwest, is a state with diverse landscapes.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 15,
+            "name": "Preventive Medicine",
+            "code": "PRM",
+            "description": "Emphasizing disease prevention, preventive medicine specialists address public health issues, vaccination programs, and lifestyle modifications to mit",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "name": "Ochsner Lafayette General Medical Center",
+        "code": "OLGMC",
+        "description": "The largest full-service medical center in the Lafayette, Louisiana area, offering a comprehensive range of medical and surgical services across various specialties. It is part of the Ochsner Health System.\",\n    ",
+        "contactPerson": "Ochsner Lafayette General Medical Center",
+        "phoneNumber": "(337) 289-7991",
+        "emailAddress": "medcarefind@gmail.com",
+        "website": "",
+        "aboutUs": "  Ochsner Lafayette General Medical Center, established in 1911, has a long history of providing quality healthcare to the community. It is a major teaching hospital, affiliated with the LSU Health New Orleans School of Medicine. The center is accredited by The Joint Commission and offers a range of advanced technologies and treatment options.\n    ",
+        "operatingHours": "24 Hours",
+        "partnership": null,
+        "dateCreated": "2024-03-26T11:16:05.521",
+        "createdBy": 43,
+        "city": [
+          {
+            "id": 1447,
+            "name": "Lafayette",
+            "code": "LAFA",
+            "description": "A city in us",
+            "zipCode": "70501",
+            "state": {
+              "id": 15,
+              "name": "Louisiana",
+              "code": "LA",
+              "description": "Louisiana, located in the southern U.S., is a state known for its vibrant culture.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 7,
+            "name": "Vagus Nerve Stimulation",
+            "code": "VNS",
+            "description": "An implantable device used to treat epilepsy..",
+            "dateCreated": "2024-03-21T10:10:26.971",
+            "createdBy": "Frances"
+          },
+          {
+            "id": 8,
+            "name": "Proton Therapy",
+            "code": "PT",
+            "description": "HELLO",
+            "dateCreated": "2024-03-25T10:55:59.863",
+            "createdBy": "Frances"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 73,
+            "name": "Paediatrics",
+            "code": "PAED",
+            "description": "Focusing on the medical care of infants, children, and adolescents, addressing their unique healthcare needs and promoting overall well-being.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 50,
+            "name": "Ophthalmology",
+            "code": "OPHTH",
+            "description": "Ophthalmologists specialize in eye health, treating conditions such as cataracts, glaucoma, and macular degeneration, performing surgeries like laser ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 43,
+            "name": "Infectious Disease",
+            "code": "INFEC",
+            "description": "Infectious disease specialists diagnose and treat infections such as pneumonia, HIV, and COVID-19, providing expertise in antibiotic therapy, antivira",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 105,
+            "name": "Gynaecology and Obstetrics",
+            "code": "GYNE",
+            "description": "Specializing in women's reproductive health. Diagnosis and treatment of gynecological conditions and care during pregnancy and childbirth.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 101,
+            "name": "Anaesthesiology",
+            "code": "ANES",
+            "description": "administration of anesthesia to ensure patient comfort and safety during surgical and medical procedures, as well as pain management.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 8,
+            "name": "Internal Medicine",
+            "code": "INM",
+            "description": "Offering comprehensive adult healthcare, internists manage conditions like diabetes, heart disease, infectious diseases, and gastrointestinal disorder",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 9,
+            "name": "Neurology",
+            "code": "NEU",
+            "description": "Specializing in the nervous system, neurologists diagnose and treat disorders such as migraines, epilepsy, multiple sclerosis, and stroke, focusing on",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 57,
+            "name": "Gastroenterology",
+            "code": "GASE",
+            "description": "Gastroenterologists address digestive health, managing conditions like irritable bowel syndrome (IBS), inflammatory bowel disease, and liver disorders",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 5,
+            "name": "General Surgery",
+            "code": "GNS",
+            "description": "Performing surgical interventions for various health issues, general surgeons address conditions like appendicitis, hernias, gallbladder problems, and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 37,
+            "name": "Cardiology",
+            "code": "CARD",
+            "description": "Cardiologists specialize in heart health, addressing conditions such as coronary artery disease, heart failure, arrhythmias, and managing risk factors",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 58,
+            "name": "Nephrology",
+            "code": "NEPH",
+            "description": "Nephrologists specialize in kidney health, managing conditions such as chronic kidney disease, kidney stones, and electrolyte imbalances, providing di",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 26,
+            "name": "Urology",
+            "code": "URO",
+            "description": "Urologists specialize in the urinary tract and male reproductive system, addressing conditions such as kidney stones, urinary incontinence, prostate i",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 55,
+            "name": "endocrinology",
+            "code": "ENDCR",
+            "description": "Endocrinologists specialize in hormonal disorders, managing conditions such as diabetes, thyroid disorders, and hormonal imbalances impacting reproduc",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 17,
+            "name": "Oncology",
+            "code": "ONC",
+            "description": "Specializing in the diagnosis and treatment of cancer, oncologists manage conditions like breast cancer, lung cancer, leukemia, and lymphoma, employin",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": [
+              {
+                "id": 1,
+                "name": "Acoustic Neuroma",
+                "code": "ACN",
+                "description": "Acoustic Neuroma"
+              },
+              {
+                "id": 3,
+                "name": "Acute lymphocytic leukemia",
+                "code": "ALL",
+                "description": "Acute lymphocytic leukemia"
+              },
+              {
+                "id": 2,
+                "name": "Acute myeloid leukemia",
+                "code": "AML",
+                "description": "Acute myeloid leukemia"
+              }
+            ]
+          },
+          {
+            "id": 96,
+            "name": "Vascular and Endovascular Surgery",
+            "code": "VES",
+            "description": "Focusing on surgical and endovascular procedures to treat vascular disorders, including arterial and venous diseases, promoting circulatory health.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 3,
+            "name": "Dermatology",
+            "code": "DEM",
+            "description": "Focusing on skin health, dermatologists treat conditions like acne, dermatitis, psoriasis, and skin cancer, offering expertise in cosmetic procedures ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 25,
+            "name": "Pulmonology",
+            "code": "PULMO",
+            "description": "Pulmonologists focus on respiratory health, treating conditions like asthma, chronic obstructive pulmonary disease (COPD), pneumonia, and providing ca",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 61,
+            "name": "Plastic Surgery",
+            "code": "PS",
+            "description": "Plastic surgeons perform cosmetic and reconstructive procedures, addressing conditions like cleft lip, burns, and breast reconstruction, as well as el",
+            "dateCreated": "2023-12-09T22:32:44.565788",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 14,
+            "name": "Psychiatry",
+            "code": "PSY",
+            "description": "Dedicated to mental health, psychiatrists diagnose and treat disorders including depression, anxiety, bipolar disorder, and schizophrenia, providing p",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 56,
+            "name": "Orthopaedics",
+            "code": "ORTHS",
+            "description": "Orthopedic specialists focus on musculoskeletal health, treating conditions like fractures, arthritis, and sports injuries, and performing surgeries s",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 86,
+            "name": "Neonatology",
+            "code": "NEO",
+            "description": "care of newborn infants, particularly those who are ill or born prematurely, providing specialized medical attention during the  early stages of life.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 95,
+            "name": "Pain Management",
+            "code": "PNM",
+            "description": "assessment and treatment of chronic pain conditions, employing a multidisciplinary approach to improve patients' quality of life and functionality.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 98,
+            "name": "ENT",
+            "code": "ENDT",
+            "description": "diagnosis and treatment of disorders related to the ear, nose, and throat, including surgical interventions for various conditions.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 35,
+            "name": "Sleep Medicine",
+            "code": "SLEEP",
+            "description": "Sleep specialists address sleep disorders such as insomnia, sleep apnea, and restless legs syndrome, helping patients achieve better sleep hygiene and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 23,
+            "name": "Neurology and neurosurgery",
+            "code": "NEURO",
+            "description": "Neurology and neurosurgery",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 36,
+            "name": "Rheumatology",
+            "code": "RHEUM",
+            "description": "Rheumatologists manage autoimmune and inflammatory conditions affecting joints and connective tissues, including rheumatoid arthritis, lupus, and oste",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Cleveland Clinic",
+        "code": "CLC",
+        "description": "Cleveland Clinic",
+        "contactPerson": null,
+        "phoneNumber": "800.223.2273",
+        "emailAddress": "ccjm@ccf.org",
+        "website": "https://my.clevelandclinic.org/",
+        "aboutUs": null,
+        "operatingHours": null,
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1307,
+            "name": "Akron",
+            "code": "ARN",
+            "description": "Akron is a city in Ohio, United states of America, with a populaton of 1450",
+            "zipCode": "51001",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1306,
+            "name": "Beachwood",
+            "code": "BAH",
+            "description": "Beachwood is a city in New Ohio, United states of America, with a populaton of 11214",
+            "zipCode": "08722[13][14]",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1305,
+            "name": "Cleveland",
+            "code": "CEE",
+            "description": "Cleveland is a city in Alabama, United states of America, with a populaton of 1315",
+            "zipCode": "35049",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1307,
+            "name": "Akron",
+            "code": "ARN",
+            "description": "Akron is a city in Ohio, United states of America, with a populaton of 1450",
+            "zipCode": "51001",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1306,
+            "name": "Beachwood",
+            "code": "BAH",
+            "description": "Beachwood is a city in New Ohio, United states of America, with a populaton of 11214",
+            "zipCode": "08722[13][14]",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1305,
+            "name": "Cleveland",
+            "code": "CEE",
+            "description": "Cleveland is a city in Alabama, United states of America, with a populaton of 1315",
+            "zipCode": "35049",
+            "state": {
+              "id": 36,
+              "name": "Ohio",
+              "code": "OH",
+              "description": "Ohio, located in the Midwest, is a state with a mix of industrial cities.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [
+          {
+            "id": 8,
+            "name": "cleveland1",
+            "url": "dRIJ1JT1P92",
+            "size": 9023,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "cleveland.jpg",
+            "hospitalId": 36
+          }
+        ],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 42,
+            "name": "Hematology",
+            "code": "HEMAT",
+            "description": "Hematologists focus on blood-related disorders, including anemia, leukemia, and clotting disorders, providing treatments such as blood transfusions, c",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 30,
+            "name": "Psychology",
+            "code": "PSYCH",
+            "description": "Psychologists study mental processes and behavior, providing therapy for conditions like anxiety, depression, and trauma, as well as conducting assess",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 1,
+            "name": "Allergy and Immunology",
+            "code": "ANI",
+            "description": "Specializing in the diagnosis and treatment of allergies and immune system disorders, including hay fever, asthma, eczema, and autoimmune diseases.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola",
+            "subSpecialty": []
+          },
+          {
+            "id": 17,
+            "name": "Oncology",
+            "code": "ONC",
+            "description": "Specializing in the diagnosis and treatment of cancer, oncologists manage conditions like breast cancer, lung cancer, leukemia, and lymphoma, employin",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": [
+              {
+                "id": 1,
+                "name": "Acoustic Neuroma",
+                "code": "ACN",
+                "description": "Acoustic Neuroma"
+              },
+              {
+                "id": 3,
+                "name": "Acute lymphocytic leukemia",
+                "code": "ALL",
+                "description": "Acute lymphocytic leukemia"
+              },
+              {
+                "id": 2,
+                "name": "Acute myeloid leukemia",
+                "code": "AML",
+                "description": "Acute myeloid leukemia"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "name": "Pediatrics",
+            "code": "PED",
+            "description": "Pediatricians provide comprehensive healthcare for children, managing common illnesses such as respiratory infections, childhood vaccinations, and dev",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 43,
+            "name": "Infectious Disease",
+            "code": "INFEC",
+            "description": "Infectious disease specialists diagnose and treat infections such as pneumonia, HIV, and COVID-19, providing expertise in antibiotic therapy, antivira",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 3,
+            "name": "Dermatology",
+            "code": "DEM",
+            "description": "Focusing on skin health, dermatologists treat conditions like acne, dermatitis, psoriasis, and skin cancer, offering expertise in cosmetic procedures ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 25,
+            "name": "Pulmonology",
+            "code": "PULMO",
+            "description": "Pulmonologists focus on respiratory health, treating conditions like asthma, chronic obstructive pulmonary disease (COPD), pneumonia, and providing ca",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 14,
+            "name": "Psychiatry",
+            "code": "PSY",
+            "description": "Dedicated to mental health, psychiatrists diagnose and treat disorders including depression, anxiety, bipolar disorder, and schizophrenia, providing p",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 56,
+            "name": "Orthopaedics",
+            "code": "ORTHS",
+            "description": "Orthopedic specialists focus on musculoskeletal health, treating conditions like fractures, arthritis, and sports injuries, and performing surgeries s",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 2,
+            "name": "Family medicine",
+            "code": "FAM",
+            "description": "Family medicine",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 8,
+            "name": "Internal Medicine",
+            "code": "INM",
+            "description": "Offering comprehensive adult healthcare, internists manage conditions like diabetes, heart disease, infectious diseases, and gastrointestinal disorder",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 9,
+            "name": "Neurology",
+            "code": "NEU",
+            "description": "Specializing in the nervous system, neurologists diagnose and treat disorders such as migraines, epilepsy, multiple sclerosis, and stroke, focusing on",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 57,
+            "name": "Gastroenterology",
+            "code": "GASE",
+            "description": "Gastroenterologists address digestive health, managing conditions like irritable bowel syndrome (IBS), inflammatory bowel disease, and liver disorders",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 36,
+            "name": "Rheumatology",
+            "code": "RHEUM",
+            "description": "Rheumatologists manage autoimmune and inflammatory conditions affecting joints and connective tissues, including rheumatoid arthritis, lupus, and oste",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 37,
+            "name": "Cardiology",
+            "code": "CARD",
+            "description": "Cardiologists specialize in heart health, addressing conditions such as coronary artery disease, heart failure, arrhythmias, and managing risk factors",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 58,
+            "name": "Nephrology",
+            "code": "NEPH",
+            "description": "Nephrologists specialize in kidney health, managing conditions such as chronic kidney disease, kidney stones, and electrolyte imbalances, providing di",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 55,
+            "name": "endocrinology",
+            "code": "ENDCR",
+            "description": "Endocrinologists specialize in hormonal disorders, managing conditions such as diabetes, thyroid disorders, and hormonal imbalances impacting reproduc",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "name": "asd",
+        "code": "aassd",
+        "description": "xfdtfdfdfdf",
+        "contactPerson": "Jane Frances Chioke",
+        "phoneNumber": "(070) 397-6577",
+        "emailAddress": "ifechukwudee582@gmail.com",
+        "website": "vdffe",
+        "aboutUs": "dddddddddddddddddddddddddddddddd",
+        "operatingHours": "24 Hours",
+        "partnership": null,
+        "dateCreated": "2024-03-25T10:33:20.755",
+        "createdBy": 43,
+        "city": [
+          {
+            "id": 1303,
+            "name": "Houston",
+            "code": "HUT",
+            "description": "Houston is a city in Missouri, United states of America, with a populaton of 2082",
+            "zipCode": "65483",
+            "state": {
+              "id": 25,
+              "name": "Missouri",
+              "code": "MO",
+              "description": "Missouri, situated in the Midwest, is a state with diverse landscapes.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 5,
+            "name": "General Surgery",
+            "code": "GNS",
+            "description": "Performing surgical interventions for various health issues, general surgeons address conditions like appendicitis, hernias, gallbladder problems, and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Stanford Health Care",
+        "code": "SHC",
+        "description": "Stanford Health Care is part of the adult health care delivery system of Stanford Medicine located in Carlifornia, and serves as the primary teaching hospital for the Stanford University School of Medicine",
+        "contactPerson": null,
+        "phoneNumber": "650-723-5462",
+        "emailAddress": "SHCAPInvoices@stanfordhealthcare.org",
+        "website": "https://stanfordhealthcare.org/",
+        "aboutUs": "Stanford Medicine delivers unparalleled care for each patient’s unique needs. Our multidisciplinary approach to health care coordinates expertise with the most advanced technology for the best possible outcomes.",
+        "operatingHours": null,
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1327,
+            "name": "Stanford",
+            "code": "STN",
+            "description": "Stanford is a census-designated place in the northwest corner of Santa Clara County, California, United States",
+            "zipCode": "94305, 94309",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1326,
+            "name": "San Jose",
+            "code": "SAJ",
+            "description": "San Jose is a large city surrounded by rolling hills in Silicon Valley, a major technology hub in California's Bay Area",
+            "zipCode": "95112",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1325,
+            "name": "Palo Alto",
+            "code": "PAL",
+            "description": "Palo Alto is a charter city in the northwestern corner of Santa Clara County, California, United States",
+            "zipCode": "94301",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1324,
+            "name": "Newark",
+            "code": "NEW",
+            "description": "Newark is a city in Alameda County, California, United States",
+            "zipCode": "94560",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1327,
+            "name": "Stanford",
+            "code": "STN",
+            "description": "Stanford is a census-designated place in the northwest corner of Santa Clara County, California, United States",
+            "zipCode": "94305, 94309",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1326,
+            "name": "San Jose",
+            "code": "SAJ",
+            "description": "San Jose is a large city surrounded by rolling hills in Silicon Valley, a major technology hub in California's Bay Area",
+            "zipCode": "95112",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1325,
+            "name": "Palo Alto",
+            "code": "PAL",
+            "description": "Palo Alto is a charter city in the northwestern corner of Santa Clara County, California, United States",
+            "zipCode": "94301",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1324,
+            "name": "Newark",
+            "code": "NEW",
+            "description": "Newark is a city in Alameda County, California, United States",
+            "zipCode": "94560",
+            "state": {
+              "id": 7,
+              "name": "California",
+              "code": "CA",
+              "description": "California, the most populous state in the nation, is a diverse and dynamic destination.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [
+          {
+            "id": 15,
+            "name": "standford2",
+            "url": "dYLXCRK12CC",
+            "size": 9222,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "stanford2.jpeg",
+            "hospitalId": 44
+          },
+          {
+            "id": 14,
+            "name": "standford1",
+            "url": "dNC8Z1I7NX8",
+            "size": 10285,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "stanford1.jpeg",
+            "hospitalId": 44
+          }
+        ],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 56,
+            "name": "Orthopaedics",
+            "code": "ORTHS",
+            "description": "Orthopedic specialists focus on musculoskeletal health, treating conditions like fractures, arthritis, and sports injuries, and performing surgeries s",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 51,
+            "name": "Transplant",
+            "code": "TRSP",
+            "description": "Transplant specialists focus on organ transplantation, managing patients before and after procedures, addressing issues like organ rejection, immunosu",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 17,
+            "name": "Oncology",
+            "code": "ONC",
+            "description": "Specializing in the diagnosis and treatment of cancer, oncologists manage conditions like breast cancer, lung cancer, leukemia, and lymphoma, employin",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": [
+              {
+                "id": 1,
+                "name": "Acoustic Neuroma",
+                "code": "ACN",
+                "description": "Acoustic Neuroma"
+              },
+              {
+                "id": 3,
+                "name": "Acute lymphocytic leukemia",
+                "code": "ALL",
+                "description": "Acute lymphocytic leukemia"
+              },
+              {
+                "id": 2,
+                "name": "Acute myeloid leukemia",
+                "code": "AML",
+                "description": "Acute myeloid leukemia"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "Neurology and neurosurgery",
+            "code": "NEURO",
+            "description": "Neurology and neurosurgery",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 37,
+            "name": "Cardiology",
+            "code": "CARD",
+            "description": "Cardiologists specialize in heart health, addressing conditions such as coronary artery disease, heart failure, arrhythmias, and managing risk factors",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 18,
+            "name": "Cardiology and heart surgery",
+            "code": "CARD2",
+            "description": "Cardiology and heart surgery",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 12,
+            "name": "Orthopaedic Surgery",
+            "code": "OTS",
+            "description": "Specializing in the treatment of musculoskeletal conditions, orthopedic surgeons address disorders such as fractures, arthritis, sports injuries, and ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Mount Sinai Hospital",
+        "code": "MSH",
+        "description": "Founded in 1852, The Mount Sinai Hospital is a 1,134-bed, tertiary-care teaching facility acclaimed internationally for excellence in clinical care.",
+        "contactPerson": null,
+        "phoneNumber": "212-241-6500",
+        "emailAddress": "MSHPatientRelations@mountsinai.org",
+        "website": " https://www.mountsinai.org",
+        "aboutUs": "The Mount Sinai Hospital is one of the nation’s largest and most respected hospitals, acclaimed internationally for excellence in clinical care. Ranked among the top hospitals nationwide, we serve one of the most diverse populations in the world",
+        "operatingHours": "Open 24hours",
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1320,
+            "name": "New York",
+            "code": "NYC",
+            "description": "New York is a city in New York, United States of America",
+            "zipCode": "11226",
+            "state": {
+              "id": 33,
+              "name": "New York",
+              "code": "NY",
+              "description": "New York, a global hub of commerce, culture, and entertainment",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1320,
+            "name": "New York",
+            "code": "NYC",
+            "description": "New York is a city in New York, United States of America",
+            "zipCode": "11226",
+            "state": {
+              "id": 33,
+              "name": "New York",
+              "code": "NY",
+              "description": "New York, a global hub of commerce, culture, and entertainment",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [
+          {
+            "id": 13,
+            "name": "mount_sinai2",
+            "url": "dJG74U395SG",
+            "size": 10112,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "mount_sinai2.jpeg",
+            "hospitalId": 40
+          },
+          {
+            "id": 12,
+            "name": "mount_sinai1",
+            "url": "dS4A486GKY4",
+            "size": 69594,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "mount_sinai1.jpg",
+            "hospitalId": 40
+          }
+        ],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 68,
+            "name": "Rehabilitation",
+            "code": "REHAB",
+            "description": "Rehabilitation specialists focus on restoring function and improving the quality of life after illness or injury, addressing conditions such as stroke",
+            "dateCreated": "2023-12-11T00:54:09.709172",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 40,
+            "name": "Pediatrics",
+            "code": "PED",
+            "description": "Pediatricians provide comprehensive healthcare for children, managing common illnesses such as respiratory infections, childhood vaccinations, and dev",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 24,
+            "name": "Orthopedics",
+            "code": "ORTHO",
+            "description": "Orthopedic specialists manage musculoskeletal conditions including fractures, arthritis, and sports injuries. They perform joint replacements, spine s",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 50,
+            "name": "Ophthalmology",
+            "code": "OPHTH",
+            "description": "Ophthalmologists specialize in eye health, treating conditions such as cataracts, glaucoma, and macular degeneration, performing surgeries like laser ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 9,
+            "name": "Neurology",
+            "code": "NEU",
+            "description": "Specializing in the nervous system, neurologists diagnose and treat disorders such as migraines, epilepsy, multiple sclerosis, and stroke, focusing on",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 51,
+            "name": "Transplant",
+            "code": "TRSP",
+            "description": "Transplant specialists focus on organ transplantation, managing patients before and after procedures, addressing issues like organ rejection, immunosu",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 5,
+            "name": "General Surgery",
+            "code": "GNS",
+            "description": "Performing surgical interventions for various health issues, general surgeons address conditions like appendicitis, hernias, gallbladder problems, and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 47,
+            "name": "Diabetes",
+            "code": "DIAB",
+            "description": "Diabetologists focus on diabetes management, addressing both type 1 and type 2 diabetes, providing education on insulin therapy, oral medications, and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 60,
+            "name": "Genetic Medicine",
+            "code": "GENE",
+            "description": "Geneticists provide personalized healthcare based on genetic information, managing genetic disorders, conducting genetic counseling, and contributing ",
+            "dateCreated": "2023-12-09T22:32:44.538531",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 58,
+            "name": "Nephrology",
+            "code": "NEPH",
+            "description": "Nephrologists specialize in kidney health, managing conditions such as chronic kidney disease, kidney stones, and electrolyte imbalances, providing di",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 10,
+            "name": "Obstetrics and Gynecology",
+            "code": "ONG",
+            "description": "Addressing women’s health needs, OB/GYNs manage conditions like pregnancy-related issues, reproductive health, gynecologic cancers, and hormonal disor",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 26,
+            "name": "Urology",
+            "code": "URO",
+            "description": "Urologists specialize in the urinary tract and male reproductive system, addressing conditions such as kidney stones, urinary incontinence, prostate i",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 66,
+            "name": "Alzheimer's Disease",
+            "code": "ALZ",
+            "description": "Specializing in the diagnosis and management of Alzheimer’s disease, neurologists and geriatricians provide care for memory loss, cognitive decline, a",
+            "dateCreated": "2023-12-11T00:54:09.707176",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 1,
+            "name": "Allergy and Immunology",
+            "code": "ANI",
+            "description": "Specializing in the diagnosis and treatment of allergies and immune system disorders, including hay fever, asthma, eczema, and autoimmune diseases.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola",
+            "subSpecialty": []
+          },
+          {
+            "id": 21,
+            "name": "Geriatrics",
+            "code": "GERI",
+            "description": "Dedicated to the health and well-being of older adults, geriatricians address age-related conditions such as dementia, osteoporosis, and cardiovascula",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 67,
+            "name": "Ear, Nose, and Throat",
+            "code": "ENT",
+            "description": "Otolaryngologists address conditions of the ear, nose, and throat, managing issues such as sinus infections, hearing loss, and performing surgeries fo",
+            "dateCreated": "2023-12-11T00:54:09.705174",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 17,
+            "name": "Oncology",
+            "code": "ONC",
+            "description": "Specializing in the diagnosis and treatment of cancer, oncologists manage conditions like breast cancer, lung cancer, leukemia, and lymphoma, employin",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": [
+              {
+                "id": 1,
+                "name": "Acoustic Neuroma",
+                "code": "ACN",
+                "description": "Acoustic Neuroma"
+              },
+              {
+                "id": 3,
+                "name": "Acute lymphocytic leukemia",
+                "code": "ALL",
+                "description": "Acute lymphocytic leukemia"
+              },
+              {
+                "id": 2,
+                "name": "Acute myeloid leukemia",
+                "code": "AML",
+                "description": "Acute myeloid leukemia"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Dermatology",
+            "code": "DEM",
+            "description": "Focusing on skin health, dermatologists treat conditions like acne, dermatitis, psoriasis, and skin cancer, offering expertise in cosmetic procedures ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 25,
+            "name": "Pulmonology",
+            "code": "PULMO",
+            "description": "Pulmonologists focus on respiratory health, treating conditions like asthma, chronic obstructive pulmonary disease (COPD), pneumonia, and providing ca",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 64,
+            "name": "Palliative Medicine",
+            "code": "PM",
+            "description": "Palliative care specialists focus on improving the quality of life for patients with serious illnesses, managing symptoms, providing emotional support",
+            "dateCreated": "2023-12-09T22:32:44.56253",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 14,
+            "name": "Psychiatry",
+            "code": "PSY",
+            "description": "Dedicated to mental health, psychiatrists diagnose and treat disorders including depression, anxiety, bipolar disorder, and schizophrenia, providing p",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 46,
+            "name": "Neurosurgery",
+            "code": "NEROS",
+            "description": "Neurosurgeons perform surgeries for neurological conditions, including brain tumors, spinal cord injuries, and herniated discs, employing advanced tec",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 16,
+            "name": "Radiology",
+            "code": "RAD",
+            "description": "Utilizing medical imaging, radiologists diagnose conditions such as tumors, fractures, and vascular abnormalities, contributing to the management of d",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 36,
+            "name": "Rheumatology",
+            "code": "RHEUM",
+            "description": "Rheumatologists manage autoimmune and inflammatory conditions affecting joints and connective tissues, including rheumatoid arthritis, lupus, and oste",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Hospital for special surgery",
+        "code": "HSS",
+        "description": "Founded originally as The Hospital of the New York Society for the Relief of the Ruptured and Crippled in 1863 (R&C)",
+        "contactPerson": null,
+        "phoneNumber": "+1212-606-1000",
+        "emailAddress": "dotys@hss.edu",
+        "website": "https://www.hss.edu/",
+        "aboutUs": "Founded in 1863, Hospital for Special Surgery is the oldest orthopedic hospital in the United States. More than 32,000 surgical procedures are performed annually. HSS performs more hip surgeries and more knee replacements than any other hospital in the US",
+        "operatingHours": null,
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1314,
+            "name": "Manhattan",
+            "code": "MAN",
+            "description": "Manhattan is a city in New York, United states of America, with a populaton of 1450",
+            "zipCode": "10001-10282",
+            "state": {
+              "id": 33,
+              "name": "New York",
+              "code": "NY",
+              "description": "New York, a global hub of commerce, culture, and entertainment",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1316,
+            "name": "Paramus",
+            "code": "PAR",
+            "description": "Paramus is a city in New Jersey, United states of America",
+            "zipCode": "07652–07653",
+            "state": {
+              "id": 31,
+              "name": "New Jersey",
+              "code": "NJ",
+              "description": "New Jersey, situated on the East Coast, is a state known for its diverse landscapes",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1314,
+            "name": "Manhattan",
+            "code": "MAN",
+            "description": "Manhattan is a city in New York, United states of America, with a populaton of 1450",
+            "zipCode": "10001-10282",
+            "state": {
+              "id": 33,
+              "name": "New York",
+              "code": "NY",
+              "description": "New York, a global hub of commerce, culture, and entertainment",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1316,
+            "name": "Paramus",
+            "code": "PAR",
+            "description": "Paramus is a city in New Jersey, United states of America",
+            "zipCode": "07652–07653",
+            "state": {
+              "id": 31,
+              "name": "New Jersey",
+              "code": "NJ",
+              "description": "New Jersey, situated on the East Coast, is a state known for its diverse landscapes",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [
+          {
+            "id": 6,
+            "name": "hss3",
+            "url": "dYRPU0R9F13",
+            "size": 8961,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "hss3.jpg",
+            "hospitalId": 37
+          },
+          {
+            "id": 5,
+            "name": "hss2",
+            "url": "dG49QRYVDJS",
+            "size": 8435,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "hss2.jpg",
+            "hospitalId": 37
+          },
+          {
+            "id": 3,
+            "name": "hss1",
+            "url": "dO5VAUHJ8PV",
+            "size": 263345,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "hss1.jpg",
+            "hospitalId": 37
+          }
+        ],
+        "award": [
+          {
+            "id": 2,
+            "name": "Best Hospitals US News",
+            "title": "#2 in Rheumatology",
+            "description": "#2 in Rheumatology 2023-2024",
+            "dateAwarded": "2023-01-01T17:09:42.411",
+            "hospitalId": 37
+          },
+          {
+            "id": 1,
+            "name": "Best Hospitals US News",
+            "title": "#1 in Orthopedics",
+            "description": "#1 in Orthopedics 14 years in a row",
+            "dateAwarded": "2023-01-01T17:09:42.411",
+            "hospitalId": 37
+          },
+          {
+            "id": 3,
+            "name": "Best Children's Hospitals US News",
+            "title": "A Best Children's Hospital",
+            "description": "Best Children's Hospital Orthopedics 2023-2024",
+            "dateAwarded": "2023-01-01T17:09:42.411",
+            "hospitalId": 37
+          }
+        ],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 56,
+            "name": "Orthopaedics",
+            "code": "ORTHS",
+            "description": "Orthopedic specialists focus on musculoskeletal health, treating conditions like fractures, arthritis, and sports injuries, and performing surgeries s",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 36,
+            "name": "Rheumatology",
+            "code": "RHEUM",
+            "description": "Rheumatologists manage autoimmune and inflammatory conditions affecting joints and connective tissues, including rheumatoid arthritis, lupus, and oste",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 12,
+            "name": "Orthopaedic Surgery",
+            "code": "OTS",
+            "description": "Specializing in the treatment of musculoskeletal conditions, orthopedic surgeons address disorders such as fractures, arthritis, sports injuries, and ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "The John Hopkins Hospital",
+        "code": "JHH",
+        "description": "The Johns Hopkins Hospital (JHH) is the teaching hospital and biomedical research facility of Johns Hopkins School of Medicine in Baltimore, Maryland",
+        "contactPerson": null,
+        "phoneNumber": " 410-955-5000",
+        "emailAddress": "bsph.bmb@jhu.edu",
+        "website": "https://www.hopkinsmedicine.org/",
+        "aboutUs": "Patients are the focus of everything we do at The Johns Hopkins Hospital. Our mission is to advance patient care, education, and research",
+        "operatingHours": "8:00-5:00",
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1318,
+            "name": "Columbia",
+            "code": "COL",
+            "description": "Columbia is a city in Maryland, United States of America",
+            "zipCode": "29223",
+            "state": {
+              "id": 20,
+              "name": "Maryland",
+              "code": "MD",
+              "description": "Maryland, located on the East Coast.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1317,
+            "name": "Baltimore",
+            "code": "BAM",
+            "description": "Baltimore is a city in Maryland, United states of America",
+            "zipCode": "21215",
+            "state": {
+              "id": 20,
+              "name": "Maryland",
+              "code": "MD",
+              "description": "Maryland, located on the East Coast.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1318,
+            "name": "Columbia",
+            "code": "COL",
+            "description": "Columbia is a city in Maryland, United States of America",
+            "zipCode": "29223",
+            "state": {
+              "id": 20,
+              "name": "Maryland",
+              "code": "MD",
+              "description": "Maryland, located on the East Coast.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1317,
+            "name": "Baltimore",
+            "code": "BAM",
+            "description": "Baltimore is a city in Maryland, United states of America",
+            "zipCode": "21215",
+            "state": {
+              "id": 20,
+              "name": "Maryland",
+              "code": "MD",
+              "description": "Maryland, located on the East Coast.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1319,
+            "name": "Northwest Washington",
+            "code": "NWW",
+            "description": "Northwest Washington is a city in Washington, United States of America",
+            "zipCode": "99301",
+            "state": {
+              "id": 47,
+              "name": "Washington",
+              "code": "WA",
+              "description": "Washington, in the Pacific Northwest, is known for its vibrant cities",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1319,
+            "name": "Northwest Washington",
+            "code": "NWW",
+            "description": "Northwest Washington is a city in Washington, United States of America",
+            "zipCode": "99301",
+            "state": {
+              "id": 47,
+              "name": "Washington",
+              "code": "WA",
+              "description": "Washington, in the Pacific Northwest, is known for its vibrant cities",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 42,
+            "name": "Hematology",
+            "code": "HEMAT",
+            "description": "Hematologists focus on blood-related disorders, including anemia, leukemia, and clotting disorders, providing treatments such as blood transfusions, c",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 62,
+            "name": "Infectious Diseases",
+            "code": "ID",
+            "description": "Infectious disease specialists diagnose and treat infections such as HIV, tuberculosis, and emerging diseases, contributing expertise in antibiotic th",
+            "dateCreated": "2023-12-09T22:32:44.549529",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 40,
+            "name": "Pediatrics",
+            "code": "PED",
+            "description": "Pediatricians provide comprehensive healthcare for children, managing common illnesses such as respiratory infections, childhood vaccinations, and dev",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 50,
+            "name": "Ophthalmology",
+            "code": "OPHTH",
+            "description": "Ophthalmologists specialize in eye health, treating conditions such as cataracts, glaucoma, and macular degeneration, performing surgeries like laser ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 59,
+            "name": "Bloodless Medicine",
+            "code": "BM",
+            "description": "Focusing on medical care without blood transfusions, this specialty is crucial for patients with religious objections or medical reasons, managing con",
+            "dateCreated": "2023-12-09T22:32:44.512538",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 3,
+            "name": "Dermatology",
+            "code": "DEM",
+            "description": "Focusing on skin health, dermatologists treat conditions like acne, dermatitis, psoriasis, and skin cancer, offering expertise in cosmetic procedures ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 12,
+            "name": "Orthopaedic Surgery",
+            "code": "OTS",
+            "description": "Specializing in the treatment of musculoskeletal conditions, orthopedic surgeons address disorders such as fractures, arthritis, sports injuries, and ",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 52,
+            "name": "Otolaryngology",
+            "code": "OTLGY",
+            "description": "Otolaryngologists, or ENT specialists, address conditions of the ear, nose, and throat, including sinus infections, hearing loss, and performing surge",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 61,
+            "name": "Plastic Surgery",
+            "code": "PS",
+            "description": "Plastic surgeons perform cosmetic and reconstructive procedures, addressing conditions like cleft lip, burns, and breast reconstruction, as well as el",
+            "dateCreated": "2023-12-09T22:32:44.565788",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 64,
+            "name": "Palliative Medicine",
+            "code": "PM",
+            "description": "Palliative care specialists focus on improving the quality of life for patients with serious illnesses, managing symptoms, providing emotional support",
+            "dateCreated": "2023-12-09T22:32:44.56253",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 14,
+            "name": "Psychiatry",
+            "code": "PSY",
+            "description": "Dedicated to mental health, psychiatrists diagnose and treat disorders including depression, anxiety, bipolar disorder, and schizophrenia, providing p",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 63,
+            "name": "Geriatric Medicine",
+            "code": "GER",
+            "description": "Geriatricians focus on the health of older adults, managing conditions such as dementia, osteoporosis, and cardiovascular issues, providing comprehens",
+            "dateCreated": "2023-12-09T22:32:44.540637",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 53,
+            "name": "Transgender Health",
+            "code": "TGH",
+            "description": "Dedicated to the healthcare needs of transgender individuals, this specialty addresses gender dysphoria, hormone therapy, and gender-affirming surgeri",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 35,
+            "name": "Sleep Medicine",
+            "code": "SLEEP",
+            "description": "Sleep specialists address sleep disorders such as insomnia, sleep apnea, and restless legs syndrome, helping patients achieve better sleep hygiene and",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 57,
+            "name": "Gastroenterology",
+            "code": "GASE",
+            "description": "Gastroenterologists address digestive health, managing conditions like irritable bowel syndrome (IBS), inflammatory bowel disease, and liver disorders",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 51,
+            "name": "Transplant",
+            "code": "TRSP",
+            "description": "Transplant specialists focus on organ transplantation, managing patients before and after procedures, addressing issues like organ rejection, immunosu",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 36,
+            "name": "Rheumatology",
+            "code": "RHEUM",
+            "description": "Rheumatologists manage autoimmune and inflammatory conditions affecting joints and connective tissues, including rheumatoid arthritis, lupus, and oste",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 37,
+            "name": "Cardiology",
+            "code": "CARD",
+            "description": "Cardiologists specialize in heart health, addressing conditions such as coronary artery disease, heart failure, arrhythmias, and managing risk factors",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 60,
+            "name": "Genetic Medicine",
+            "code": "GENE",
+            "description": "Geneticists provide personalized healthcare based on genetic information, managing genetic disorders, conducting genetic counseling, and contributing ",
+            "dateCreated": "2023-12-09T22:32:44.538531",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 58,
+            "name": "Nephrology",
+            "code": "NEPH",
+            "description": "Nephrologists specialize in kidney health, managing conditions such as chronic kidney disease, kidney stones, and electrolyte imbalances, providing di",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 26,
+            "name": "Urology",
+            "code": "URO",
+            "description": "Urologists specialize in the urinary tract and male reproductive system, addressing conditions such as kidney stones, urinary incontinence, prostate i",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "name": "Brigham and Women's Hospital ",
+        "code": "BWH",
+        "description": "We understand that each patient has their own individual objectives and expectations. Our multidisciplinary team of care providers works closely with you to develop a personalized, comprehensive treatment plan that helps you enhance your quality of life.\n\nOur multidisciplinary team includes plastic surgeons, endocrinologists, mental health care providers, primary care providers, urologists, gynecologists, dermatologists, laryngology/voice specialists, physician assistants and administrators. Team members collaborate with each other and with you to provide culturally competent care to help you attain optimal health and wellness.We understand that each patient has their own individual objectives and expectations. Our multidisciplinary team of care providers works closely with you to develop a personalized, comprehensive treatment plan that helps you enhance your quality of life.",
+        "contactPerson": "Dr Francis",
+        "phoneNumber": "(617) 732-5500",
+        "emailAddress": "n/A",
+        "website": "https://www.brighamandwomens.org/",
+        "aboutUs": "The internationally renowned team at the Brigham and Women's Hospital Center for Transgender Health cares for and supports transgender patients at each step in their journey. We offer a full spectrum of world-class care, including medical and surgical interventions in a safe, inclusive setting.",
+        "operatingHours": "24 Hours",
+        "partnership": null,
+        "dateCreated": "2024-03-26T15:04:23.562",
+        "createdBy": 43,
+        "city": [
+          {
+            "id": 1515,
+            "name": "Massachusetts",
+            "code": "MST",
+            "description": "Tall Buildings",
+            "zipCode": "02108",
+            "state": {
+              "id": 103,
+              "name": "Boston",
+              "code": "BST",
+              "description": "Suburbs",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 7,
+            "name": "Vagus Nerve Stimulation",
+            "code": "VNS",
+            "description": "An implantable device used to treat epilepsy..",
+            "dateCreated": "2024-03-21T10:10:26.971",
+            "createdBy": "Frances"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 53,
+            "name": "Transgender Health",
+            "code": "TGH",
+            "description": "Dedicated to the healthcare needs of transgender individuals, this specialty addresses gender dysphoria, hormone therapy, and gender-affirming surgeri",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 1,
+            "name": "Allergy and Immunology",
+            "code": "ANI",
+            "description": "Specializing in the diagnosis and treatment of allergies and immune system disorders, including hay fever, asthma, eczema, and autoimmune diseases.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola",
+            "subSpecialty": []
+          },
+          {
+            "id": 70,
+            "name": "Bone Marrow Transplant",
+            "code": "BMT",
+            "description": "Specializing in the transplantation of bone marrow to treat various diseases, including leukemia, lymphoma, and certain genetic disorders.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 93,
+            "name": "Alzheimers",
+            "code": "ALZH",
+            "description": "diagnosis, management, and research of Alzheimer's disease and other forms of dementia, aiming to improve cognitive function and quality of life.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "The University of Texas MD Anderson Cancer Center",
+        "code": "MDACC",
+        "description": "The University of Texas MD Anderson Cancer Center",
+        "contactPerson": null,
+        "phoneNumber": "+1 877-632-6789",
+        "emailAddress": "OSP@mdanderson.org",
+        "website": "https://www.mdanderson.org/",
+        "aboutUs": null,
+        "operatingHours": null,
+        "partnership": null,
+        "dateCreated": "2023-11-13T17:09:42.411",
+        "createdBy": 123,
+        "city": [
+          {
+            "id": 1303,
+            "name": "Houston",
+            "code": "HUT",
+            "description": "Houston is a city in Missouri, United states of America, with a populaton of 2082",
+            "zipCode": "65483",
+            "state": {
+              "id": 25,
+              "name": "Missouri",
+              "code": "MO",
+              "description": "Missouri, situated in the Midwest, is a state with diverse landscapes.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          },
+          {
+            "id": 1303,
+            "name": "Houston",
+            "code": "HUT",
+            "description": "Houston is a city in Missouri, United states of America, with a populaton of 2082",
+            "zipCode": "65483",
+            "state": {
+              "id": 25,
+              "name": "Missouri",
+              "code": "MO",
+              "description": "Missouri, situated in the Midwest, is a state with diverse landscapes.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [
+          {
+            "id": 9,
+            "name": "mdacc1",
+            "url": "dQCKKU3RRP7",
+            "size": 12815,
+            "fileType": "image/jpeg",
+            "fileOriginalName": "mdacc1.jpg",
+            "hospitalId": 1
+          },
+          {
+            "id": 2,
+            "name": "Onc Front View",
+            "url": "dGF7UIS1W3U",
+            "size": 138353,
+            "fileType": "image/png",
+            "fileOriginalName": "Screenshot 2023-12-03 at 4.59.38 PM.png",
+            "hospitalId": 1
+          }
+        ],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 4,
+            "name": "Primary Care Provider",
+            "code": "PCP",
+            "description": "Primary Care Provider",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 3,
+            "name": "Diagnostic services",
+            "code": "DIS",
+            "description": "Diagnostic services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 5,
+            "name": "Medication Services",
+            "code": "MES",
+            "description": "Medication Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 17,
+            "name": "Oncology",
+            "code": "ONC",
+            "description": "Specializing in the diagnosis and treatment of cancer, oncologists manage conditions like breast cancer, lung cancer, leukemia, and lymphoma, employin",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": [
+              {
+                "id": 1,
+                "name": "Acoustic Neuroma",
+                "code": "ACN",
+                "description": "Acoustic Neuroma"
+              },
+              {
+                "id": 3,
+                "name": "Acute lymphocytic leukemia",
+                "code": "ALL",
+                "description": "Acute lymphocytic leukemia"
+              },
+              {
+                "id": 2,
+                "name": "Acute myeloid leukemia",
+                "code": "AML",
+                "description": "Acute myeloid leukemia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "name": "Texas Children Hospital",
+        "code": "TCH",
+        "description": "We’re proud of the daily efforts that build into cumulative medical results and discoveries accomplished by each of our institutions.  \n\nAs one of the nation’s largest and most comprehensive pediatric and women’s health care organizations, the significant scope and impact of Texas Children’s as a whole is impressive: \n\nWe have nearly 4.9 million patient encounters and nearly 7,000 births take place annually. ",
+        "contactPerson": "Dr Kiddinsky",
+        "phoneNumber": "(832) 824-1000",
+        "emailAddress": "TexasChildrenHospital@gmail.com",
+        "website": "texaschildrens.org/",
+        "aboutUs": " \nTexas Children's is creating a healthier future for children and women across our global community.",
+        "operatingHours": "24 Hours",
+        "partnership": null,
+        "dateCreated": "2024-03-26T09:59:29.15",
+        "createdBy": 43,
+        "city": [
+          {
+            "id": 1303,
+            "name": "Houston",
+            "code": "HUT",
+            "description": "Houston is a city in Missouri, United states of America, with a populaton of 2082",
+            "zipCode": "65483",
+            "state": {
+              "id": 25,
+              "name": "Missouri",
+              "code": "MO",
+              "description": "Missouri, situated in the Midwest, is a state with diverse landscapes.",
+              "country": {
+                "id": 1,
+                "name": "United States of America",
+                "code": "US",
+                "description": "The United States of America (USA) is a vast and diverse nation located in North America"
+              }
+            }
+          }
+        ],
+        "hospitalImages": [],
+        "award": [],
+        "services": [
+          {
+            "id": 1,
+            "name": "Lab and Blood Draw Services",
+            "code": "LB",
+            "description": "Lab and Blood Draw Services",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "damilola"
+          },
+          {
+            "id": 2,
+            "name": "specialized care",
+            "code": "SPC",
+            "description": "specialized care",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu"
+          },
+          {
+            "id": 7,
+            "name": "Vagus Nerve Stimulation",
+            "code": "VNS",
+            "description": "An implantable device used to treat epilepsy..",
+            "dateCreated": "2024-03-21T10:10:26.971",
+            "createdBy": "Frances"
+          },
+          {
+            "id": 8,
+            "name": "Proton Therapy",
+            "code": "PT",
+            "description": "HELLO",
+            "dateCreated": "2024-03-25T10:55:59.863",
+            "createdBy": "Frances"
+          }
+        ],
+        "specialties": [
+          {
+            "id": 84,
+            "name": "Nutrition and Dietetics",
+            "code": "ND",
+            "description": "Providing expert advice on diet and nutrition to promote health, prevent and manage diseases, and support overall well-being.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 40,
+            "name": "Pediatrics",
+            "code": "PED",
+            "description": "Pediatricians provide comprehensive healthcare for children, managing common illnesses such as respiratory infections, childhood vaccinations, and dev",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 100,
+            "name": "Physiotherapy",
+            "code": "PT",
+            "description": "rehabilitative and preventive care for physical injuries and conditions, using exercises and physical techniques to improve mobility and function.",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          },
+          {
+            "id": 18,
+            "name": "Cardiology and heart surgery",
+            "code": "CARD2",
+            "description": "Cardiology and heart surgery",
+            "dateCreated": "2023-11-13T17:09:42.411",
+            "createdBy": "Aanu",
+            "subSpecialty": []
+          }
+        ]
+      }
+    ],
+    "pageable": {
+      "pageNumber": 0,
+      "pageSize": 20,
+      "sort": {
+        "empty": true,
+        "unsorted": true,
+        "sorted": false
+      },
+      "offset": 0,
+      "unpaged": false,
+      "paged": true
+    },
+    "last": true,
+    "totalElements": 11,
+    "totalPages": 1,
+    "first": true,
+    "size": 20,
+    "number": 0,
+    "sort": {
+      "empty": true,
+      "unsorted": true,
+      "sorted": false
+    },
+    "numberOfElements": 11,
+    "empty": false
+  }
