@@ -2,6 +2,7 @@ import requests
 from .constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
 from dotenv import load_dotenv
 import os
+import json
 
 
 load_dotenv()
