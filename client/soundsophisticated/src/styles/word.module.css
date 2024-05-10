@@ -1,0 +1,220 @@
+.error {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+.word-box {
+    /* border: 2px solid orange; */
+    min-width: 200px;
+    max-width: 25%;
+    margin: 50px auto;
+    padding: 1rem;
+    background-color: white;
+    
+}
+
+.word {
+    /* border: 1px solid pink;
+    background-color: red; */
+    margin: 0;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: start;
+        
+}
+
+.phonics {
+    display: flex;
+    /* border: 1px solid yellow; */
+    align-items: flex-start;
+    padding-left: .2rem;
+}
+
+.phonics p {
+    /* border: 1px solid red; */
+    /* margin-right: 1rem; */
+    margin-top: 0;
+    /* padding: .3rem; */
+}
+
+.transcription {
+    padding-left: 0;
+    /* border: 1px solid green; */
+    font-weight: 400;
+}
+
+/* .volume-icon {
+    border: 2px solid red;   
+} */
+
+.volume-icon img {
+    width: 20px;
+    margin-left: .5rem;
+}
+
+.us-br{
+    margin-left: 2rem;
+    font-size: 15px;
+}
+.us-br a {
+    color: blue;
+}
+
+
+.part-of-speech {
+    /* font-family: 'Lora', sans-serif; */
+    /* font-style: italic; */
+    /* border: 1px solid red; */
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: .3rem;
+    padding-left: .2rem;
+}
+
+.meaning-container {
+    border-top: 1px solid #f0f0f0;
+    padding-top: .2rem;
+}
+.meaning {
+    /* border: 1px solid yellow; */
+    margin-top: 0;
+    font-weight: 300;
+    padding-left: .2rem;
+}
+
+.examples-container {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.examples-container p {
+    font-weight: 500;
+    padding-left: .1rem;
+    
+}
+
+.quoted {
+    font-weight: 300;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+li {
+    font-weight: 300;
+}
+
+.others {
+    display: flex;
+    font-size: .9rem;
+}
+
+/* .previous, 
+.next {
+    width: 10px;
+    height: 10px;
+} */
+.others .word {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+
+
+
+/*Suggested Word */
+.head {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.head .volume-icon{
+    margin-left: 1rem;
+}
+
+.examples-container p {
+    font-weight: 500;
+    padding-left: .1rem;
+    
+}
+
+.context {
+    font-weight: 300;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+.others-suggested .word {
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*NEW */
+.context-ideas {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-top: 40px; */
+}
+
+.example-context {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.context-ideas-header {
+    /* border: 2px solid blue; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.prompt {
+    font-weight: 500;
+    /* font-size: 1.7rem; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.context-prompt-container {
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+
+.context-prompt-img {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid blue; */
+    /* background-color: #f4f4f4; */
+    /* margin-right: auto; */
+    margin: 0 auto; 
+    /* display: block; */
+}
+
+.context-prompt-img img {
+    max-width: 100%;
+    min-width: 100%;
+}

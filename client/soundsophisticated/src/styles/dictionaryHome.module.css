@@ -1,0 +1,17 @@
+
+
+.wordoftheday {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid red; */
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4f4;    
+}
+
+.container {
+    background-color: #f4f4f4;
+}
+
+.context-ideas {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-top: 40px; */
+}
+
+.example-context {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.context-ideas-header {
+    /* border: 2px solid blue; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.prompt {
+    font-weight: 500;
+    /* font-size: 1.7rem; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.context-prompt-container {
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+.context-prompt-container img {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid blue; */
+    background-color: #f4f4f4;
+    /* margin-right: auto; */
+    margin: 0 auto; 
+    display: block;
+}

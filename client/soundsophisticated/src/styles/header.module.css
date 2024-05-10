@@ -1,0 +1,124 @@
+/*HEADER */
+header {
+    /* background-color: #388087; */
+    /* background-color: #033f63; */
+    /* background-color: #2C2E48; */
+    background-color: #FFFFFF;
+    padding: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid blue; */
+    margin-right: auto;
+}
+
+.logo img {
+    max-width: 100%;
+    min-width: 100%;  
+}
+
+.modes {
+    display: flex;
+    /* border: 2px solid black; */
+    /* padding: 2px; */
+    border-radius: 10px;
+    /* margin-right: 3px; */
+    /* background-color: blue; */
+}
+
+.mode {
+    width: 30px;
+    height: 30px; 
+    /* border: 2px solid red; */
+    /* margin-left: 10px; */
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+/* .assistant {
+    background-color: #bbbbbb;
+    border-radius: 5px;
+} */
+
+.mode img {
+    max-width: 100%;
+    min-width: 100%;    
+}
+
+
+.dev {
+    width: 30px;
+    height: 30px; 
+    /* border: 2px solid pink; */
+    /* margin-left: auto; */
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dev img {
+    max-width: 100%;
+    min-width: 100%;    
+}
+
+
+/* SEARCH BAR */
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid #ADD8E6; */
+    /* border: .5px solid black; */
+    /* padding: .05rem; */
+    border-radius: 15px;
+    /* background-color: #59c174; */
+    /* background-color: black; */
+    margin: 0 auto;
+    margin-left: 0;
+    /* border: 2px solid orange; */
+}
+.search-input {
+    flex: 1;
+    padding: .5rem;
+    font-size: 16px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+
+}
+.search-icon {
+    position: absolute;
+    right: 7px;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-color: #faf9f6;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+button {
+padding: .5rem;
+/* background-color: #388087; */
+/* background-color: #379683; */
+background-color: #2C2E48;
+border-radius: 5px;
+margin-right: .2rem;
+cursor: pointer;
+color: white;
+font-weight: bold;
+font-size: 17px;
+}
+
+
+
+/*SEARCH BAR END */

@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.word-box {
+    border: 2px solid orange;
+    min-width: 200px;
+    max-width: 25%;
+    margin: 50px auto;
+    padding: 1.5rem;
+    background-color: white;
+    
+}
+
+.word {
+    /* border: 1px solid pink; */
+    margin: 0;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+        
+}
+
+.volume-icon img {
+    width: 20px;
+    margin-left: .5rem;
+}
+
+.others-suggested .word {
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: pointer;
+}

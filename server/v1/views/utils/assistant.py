@@ -60,12 +60,12 @@ class Assistant:
         messages.append({"role": "user", "content": f"{last_7}"})
         payload["messages"] = messages
 
-        #return "eerie"
-        try:
-           response = requests.post(Assistant.url, headers=headers, json=payload)
-           if response.status_code == 200:
-              return response.json()["choices"][0]['message']['content']
-        except Exception as e:
-           #we'll log these erros later
-           print(e)
+        return "eerie"
+        # try:
+        #    response = requests.post(Assistant.url, headers=headers, json=payload)
+        #    if response.status_code == 200:
+        #       return response.json()["choices"][0]['message']['content']
+        # except Exception as e:
+        #    #we'll log these erros later
+        #    print(e)
         
