@@ -17,18 +17,20 @@ const DictionaryHome = () => {
             setError(null);
             setLoading(true)
             try {
-                //const response = await axios.get(`http://localhost:5000/api/v1/assistant/word_of_the_day`);
-                const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/word_of_the_day`);
+                const response = await axios.get(`http://localhost:5000/api/v1/assistant/word_of_the_day`);
+                //const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/word_of_the_day`);
                 if (response.status === 200) {
                     const word = response.data;
                     setData(word);
-                    setLoading(false)
+                    // setLoading(false)
                     console.log(word);
                 }
             } catch (error) {
-                setLoading(false)
+                // setLoading(false)
                 setError(error.message);
                 setData(null);
+            } finally {
+                setLoading(false)
             }
         };
         getWordOfTheDay();

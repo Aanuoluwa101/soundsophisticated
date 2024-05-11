@@ -15,8 +15,8 @@ function SuggestedWord({ data }) {
         const getSuggestedWordsCount = async () => {
             //console.log("calling get meaning")
             try{
-                //const response = await axios.get(`http://localhost:5000/api/v1/assistant/suggest`)
-                const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest`)
+                const response = await axios.get(`http://localhost:5000/api/v1/assistant/suggest`)
+                //const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest`)
                 if (response.status == 200){
                     setSuggestedWordsCount(response.data)
                 } 

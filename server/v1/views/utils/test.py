@@ -36,9 +36,14 @@ def test_chatgpt_api(api_key, prompt):
 
 # Replace 'YOUR_API_KEY' with your actual API key
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # Sample prompt
-prompt = "Hello, how are you?"
+prompt = "define electrolysis"
 
+api_key = os.getenv('OPENAI_APIKEY') 
+response = test_chatgpt_api(api_key, prompt)
 # # # Test the API
 print("Response from ChatGPT:", response)
 

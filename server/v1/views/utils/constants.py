@@ -43,7 +43,7 @@ SUGGEST_EXAMPLE_SYSTEM_ROLE = """You are a helpful assistant who gives example s
                   if you couldn't provide an example, return {"code": 400, "example": null}
                 """ 
 
-api_key = os.getenv('OPENAI_API_KEY')
+api_key = os.getenv('OPENAI_APIKEY')
 headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}"
@@ -53,3 +53,7 @@ payload = {
         "model": "gpt-3.5-turbo",
         "temperature": 0.7
     }
+
+
+FIFTEEN_MINUTES = 60 * 15
+ONE_DAY = 60 * 60 * 24

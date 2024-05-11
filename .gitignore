@@ -1,5 +1,5 @@
 server/v1/.env
-soundsophisticated/.env
+client/soundsophisticated/.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

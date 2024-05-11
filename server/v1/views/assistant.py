@@ -1,13 +1,15 @@
-from views import app_views
+from views import app_views, cache
 from flask import jsonify
 from .utils.db import words_in_contexts
 import json
 from bson import json_util
 from datetime import datetime
-from .utils.get_last_7 import get_last_7
-from .utils.db import word_of_the_day as word_of_the_day_collection
+from .utils.db import word_of_the_day as wotd_collection
 from .utils.dictionary import Dictionary
 from .utils.assistant import Assistant
+from .utils.constants import ONE_DAY
+from .redis_client import redis_client
+# from app import cache
 
 
 dictionary = Dictionary()
@@ -41,23 +43,25 @@ def suggest_word(context=None):
     
 
 @app_views.route('/assistant/word_of_the_day', methods=['GET'])
+#@cache.cached(ONE_DAY, key_prefix='wotd')
 def suggest_word_of_the_day():
-    #we'll implement caching, such that this function is run only once in a day
-    #we'll do that for the dictionary too
-
-    word_of_the_day = word_of_the_day_collection.find_one({"date": str(datetime.today().date())})
-    if word_of_the_day_collection:
-        return json.loads(json_util.dumps(word_of_the_day)), 200
+    cached_wotd = redis_client.get('wotd')
+    # wotd = wotd_collection.find_one({"date": str(datetime.today().date())})
+    # if wotd:
+    #     return json.loads(json_util.dumps(wotd)), 200
+    if cached_wotd:
+        return json.loads(cached_wotd), 200
     
-    last_7 = get_last_7()
-    word_of_the_day = assistant.suggest_word_of_the_day(last_7)
-    if word_of_the_day:
-        search_result = dictionary.search(word_of_the_day)
+    wotd = assistant.suggest_word_of_the_day()
+    if wotd:
+        search_result = dictionary.search(wotd)
         if search_result.status_code == 200:
-            word_of_the_day = json.loads(search_result.data)
-            word_of_the_day_collection.insert_one(word_of_the_day)
-            return json.loads(json_util.dumps(word_of_the_day)), 200
+            wotd = search_result.data
+            wotd_collection.insert_one(wotd)
+            redis_client.set('wotd', json.dumps(wotd), ex=ONE_DAY)
+            return json.loads(json_util.dumps(wotd)), 200
             #return word["word"], 200 
+    #print(wotd)
     return "Error getting word of the day!", 500
 
 #     data = {

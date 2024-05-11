@@ -25,8 +25,8 @@ function Dictionary(props) {
         setData(null)
         setError(null)
         try{
-            //const response = await axios.get(`http://localhost:5000/api/v1/dictionary/${searchInput}`)
-            const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/dictionary/${searchInput}`)
+            const response = await axios.get(`http://localhost:5000/api/v1/dictionary/${searchInput}`)
+            //const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/dictionary/${searchInput}`)
             if (response.status == 200){
                 const word = response.data
                 //console.log(word)
