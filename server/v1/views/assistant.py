@@ -45,10 +45,13 @@ def suggest_word(context=None):
 @app_views.route('/assistant/word_of_the_day', methods=['GET'])
 #@cache.cached(ONE_DAY, key_prefix='wotd')
 def suggest_word_of_the_day():
+    print("getting from redis")
     cached_wotd = redis_client.get('wotd')
     # wotd = wotd_collection.find_one({"date": str(datetime.today().date())})
     # if wotd:
     #     return json.loads(json_util.dumps(wotd)), 200
+
+    print(f"after getting from redis: {cached_wotd}")
     if cached_wotd:
         return json.loads(cached_wotd), 200
     
