@@ -65,6 +65,7 @@ class Assistant:
 
         # return "eerie"
         try:
+           print("entered here")
            response = requests.post(Assistant.url, headers=headers, json=payload)
            if response.status_code == 200:
               return response.json()["choices"][0]['message']['content']

@@ -53,15 +53,16 @@ def suggest_word_of_the_day():
 
     print(f"after getting from redis: {cached_wotd}")
     if cached_wotd:
-        return json.loads(cached_wotd), 200
+        return cached_wotd, 200
     
     wotd = assistant.suggest_word_of_the_day()
     if wotd:
         search_result = dictionary.search(wotd)
         if search_result.status_code == 200:
             wotd = search_result.data
-            wotd_collection.insert_one(wotd)
+            #print(type(wotd))
             redis_client.set('wotd', json.dumps(wotd), ex=ONE_DAY)
+            wotd_collection.insert_one(wotd)
             return json.loads(json_util.dumps(wotd)), 200
             #return word["word"], 200 
     #print(wotd)
