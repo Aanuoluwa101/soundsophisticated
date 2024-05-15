@@ -1,18 +1,20 @@
-h2 {
+.suggested-word-count {
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     font-size: 1.5rem;
-    letter-spacing: .1rem;
+    margin-top: 10px;
+    /* letter-spacing: .1rem; */
 }
 
 .word-box {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     min-width: 200px;
     max-width: 25%;
     margin: 50px auto;
+    margin-top: 5px;
     padding: 1.5rem;
     background-color: white;
     
@@ -30,6 +32,10 @@ h2 {
 .volume-icon img {
     width: 20px;
     margin-left: .5rem;
+}
+
+.others-suggested {
+    text-align: center;
 }
 
 .others-suggested .word {

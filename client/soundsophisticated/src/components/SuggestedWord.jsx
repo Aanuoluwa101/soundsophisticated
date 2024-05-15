@@ -15,8 +15,8 @@ function SuggestedWord({ data }) {
         const getSuggestedWordsCount = async () => {
             //console.log("calling get meaning")
             try{
-                //const response = await axios.get(`http://localhost:5000/api/v1/assistant/suggest`)
-                const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest`)
+                const response = await axios.get(`http://localhost:5000/api/v1/assistant/suggest`)
+                //const response = await axios.get(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest`)
                 if (response.status == 200){
                     setSuggestedWordsCount(response.data)
                 } 
@@ -35,11 +35,11 @@ function SuggestedWord({ data }) {
       
     return (
         <>
-            <h2>{suggestedWordsCount} words suggested</h2>
+            {data && suggestedWordsCount && <h2 className={styles["suggested-word-count"]}>{suggestedWordsCount} words and sentence examples suggested</h2>}
             <article className={styles["word-box"]}>
                 <div className={styles.head}>
                     <h2 className={styles.word}>{data.word}</h2>
-                    <div className={styles["volume-icon"]}><img src={icons.volume}/></div>
+                    {data.phonetic && <div className={styles["volume-icon"]}><img src={icons.volume}/></div>}
                 </div>
                 
                 <MeaningsAndExamples 
@@ -47,7 +47,7 @@ function SuggestedWord({ data }) {
                     definition={data.definition} 
                     example={data.example}
                     context={data.context} />
-                <p className={styles["others-suggested"]}>See more on <span onClick={() => handleClick(data.word)} className={styles.word}>{data.word}</span> using the dictionary mode</p>
+                <div className={styles["others-suggested"]}>Lookup <span onClick={() => handleClick(data.word)} className={styles.word}> {data.word}</span></div>
             </article>
         </>
     );

@@ -6,8 +6,8 @@ import search from '../assets/icons8-search-24.png';
 import arrowDown from '../assets/icons8-arrow-down-30.png';
 import idea from '../assets/icons8-idea-24.png';
 import volume from '../assets/icons8-volume-50.png';
-import previous from '../assets/icons8-previous-50.png';
-import next from '../assets/icons8-next-50.png';
+import previous from '../assets/previous.png';
+import next from '../assets/next.png';
 import dev from '../assets/dev_logo.png';
 
 const icons = {

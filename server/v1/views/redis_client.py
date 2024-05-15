@@ -4,11 +4,15 @@ import redis
 
 load_dotenv()
 redis_url = os.getenv('REDIS_URL')
-# redis_pool = redis.ConnectionPool.from_url(redis_url)
-# redis_client = redis.Redis(connection_pool=redis_pool)
 redis_client = redis.from_url(redis_url)
 
-#redis_client.set("wotd", "eerie")
-print(redis_client.get('wotd'))
+
+def ping_redis():
+    try:
+        redis_client.ping()
+        print("Cache ready! Good to go!")
+        return True
+    except redis.ConnectionError as e:
+        return False
 
 

@@ -1,9 +1,10 @@
 .error {
     width: 30%;
-    background-color: #ffffff;
+    background-color: #FF474C;
     padding: 2rem;
     margin: 200px auto;
     text-align: center;
+    font-weight: 500;
 }
 
 .loader {
@@ -18,10 +19,11 @@
     /* border: 2px solid orange; */
     min-width: 200px;
     max-width: 25%;
+    /* min-height: 400px; */
     margin: 50px auto;
+    margin-top: 20px;
     padding: 1rem;
-    background-color: white;
-    
+    background-color: white;  
 }
 
 .word {
@@ -87,6 +89,11 @@
     border-top: 1px solid #f0f0f0;
     padding-top: .2rem;
 }
+
+.meaning-and-examples {
+    min-height: 250px;
+    /* border: 2px solid red; */
+}
 .meaning {
     /* border: 1px solid yellow; */
     margin-top: 0;
@@ -116,14 +123,45 @@ li {
 
 .others {
     display: flex;
+    flex-direction: column;
     font-size: .9rem;
+    justify-content: center;
 }
 
-/* .previous, 
+.previous, 
 .next {
-    width: 10px;
-    height: 10px;
-} */
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.previous {
+    margin-right: 15px;
+}
+
+.next {
+    margin-right: 15px;
+}
+
+.previous img,
+.next img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.others .nav {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+
+.others p {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+
 .others .word {
     font-size: .9rem;
     font-weight: bold;

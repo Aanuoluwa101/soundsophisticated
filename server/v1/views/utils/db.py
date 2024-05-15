@@ -2,7 +2,6 @@
 from pymongo.mongo_client import MongoClient
 from dotenv import load_dotenv
 import os
-from pymongo.server_api import ServerApi
 
 
 load_dotenv()
@@ -22,9 +21,6 @@ def ping_db():
     except Exception as e:
         print(e)
 
-
-# Create a new client and connect to the server
-# client = MongoClient(uri, server_api=ServerApi('1'))
 
 if __name__ == "__main__":
     ping_db()

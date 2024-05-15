@@ -1,4 +1,3 @@
-#from .suggest_example import suggest_example
 import requests
 import json
 from .search_result import SearchResult
@@ -75,21 +74,16 @@ class Dictionary:
         return all_definitions
     
     def process_definitions(self):
-    # for definition in all_definitions:
-    #     check_example(definition)
         all_definitions = self.extract_definitions()
 
         with concurrent.futures.ThreadPoolExecutor() as executor:
             executor.map(self.check_example, all_definitions)
         return all_definitions
         
-#use map and reduce here
     def process_search_result(self):
-        #data = search_result[0]
         return {
             "word": self.data["word"],
             "phonetic": self.extract_phonetic(),
-            "pronunciation": self.extract_pronunciation(),
             "meanings": self.process_definitions()
         }
     

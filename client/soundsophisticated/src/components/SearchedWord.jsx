@@ -11,11 +11,13 @@ function SearchedWord({ data }) {
     const [hasMultipleMeanings, setHasMultipleMeanings] =  useState(false)
     const [idx, setIdx] = useState(0)
     const [meaning, setMeaning] = useState(null)
+    const [isPlaying, setIsPlaying] = useState(false);
     // const [colorIndex, setColorIndex] = useState(0);
     
 
     useEffect(() => {
         //console.log("idx useEffect")
+        console.log(data)
         if (meanings)
             setMeaning(meanings[idx])
             // setColorIndex((colorIndex + 1) % colors.length);
@@ -54,7 +56,7 @@ function SearchedWord({ data }) {
                 <h2 className={styles.word}>{data.word}</h2>
                 <div className={styles.phonics}>
                     <p className={styles.transcription}>{data.phonetic}</p>
-                    {data.phonetic && <div className={styles["volume-icon"]}><img src={icons.volume}/></div>}
+                    {/* {data.phonetic && <div onClick={handleAudioPlay(data.pronunciation)} className={styles["volume-icon"]}><img src={icons.volume}/></div>} */}
                     {/* <p class="us-br"><a>us</a>|<a>br</a></p> */}
                 </div>
                 <MeaningsAndExamples 
@@ -64,9 +66,11 @@ function SearchedWord({ data }) {
                 {
                     hasMultipleMeanings && 
                         <div className={styles.others}>
-                            {idx == 0 && <p>See more on <span className={styles.word}>{data.word}</span></p>}
-                            {idx > 0 && <div onClick={() => setIdx(prevIdx => prevIdx - 1)} className={styles.previous}><img src={icons.previous}/></div>}
-                            {idx >= 0 && idx < meanings?.length - 1 && <div onClick={() => setIdx(prevIdx => prevIdx + 1)} className={styles.next}><img src={icons.next}/></div>}
+                            {<p>See more on <span className={styles.word}>{data.word}</span></p>}
+                            <div className={styles.nav}>
+                                {idx > 0 && <div onClick={() => setIdx(prevIdx => prevIdx - 1)} className={styles.previous}><img src={icons.previous}/></div>}
+                                {idx >= 0 && idx < meanings?.length - 1 && <div onClick={() => setIdx(prevIdx => prevIdx + 1)} className={styles.next}><img src={icons.next}/></div>}
+                            </div>
                         </div>
                 }
             </article>

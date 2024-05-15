@@ -6,32 +6,30 @@ import json
 from .get_last_7 import get_last_7
 
 
-
 load_dotenv()
 
 class Assistant:
     url = os.getenv('CHATGPT_URL')
-    #api_key = os.getenv('OPENAI_API_KEY')
 
     def suggest_word(self, context):
         messages = [{"role": "system", "content": f"{SUGGEST_WORD_SYSTEM_ROLE}"}]
         messages.append({"role": "user", "content": f"{context}"})
         payload["messages"] = messages
 
-    #     return {
-    #         "code": 200,
-    #         "data": {
-    #         "context": "trying to impress my music student",
-    #         "word": "virtuosic",
-    #         "definition": "extremely skillful",
-    #         "example": "Your performance displayed a virtuosic mastery of the instrument, showcasing exceptional skill and emotion.",
-    #         "part_of_speech": "adjective",
-    #         "has_other_meanings": True
-    #      }
-    #   }
+      #   return {
+      #       "code": 200,
+      #       "data": {
+      #       "context": "trying to impress my music student",
+      #       "word": "virtuosic",
+      #       "definition": "extremely skillful",
+      #       "example": "Your performance displayed a virtuosic mastery of the instrument, showcasing exceptional skill and emotion.",
+      #       "part_of_speech": "adjective",
+      #       "has_other_meanings": True
+      #    }
+      # }
         try:
             response = requests.post(Assistant.url, headers=headers, json=payload)
-            print(response)
+            #print(response)
             if response.status_code == 200:
                 return json.loads(response.json()["choices"][0]['message']['content'])
         except Exception as e:
@@ -69,8 +67,6 @@ class Assistant:
            response = requests.post(Assistant.url, headers=headers, json=payload)
            if response.status_code == 200:
               return response.json()["choices"][0]['message']['content']
-        #    else: 
-        #        print(response.text)
         except Exception as e:
            #we'll log these erros later
            print(e)
