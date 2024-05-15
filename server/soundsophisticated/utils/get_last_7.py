@@ -1,4 +1,5 @@
 from .db import word_of_the_day
+#from db import word_of_the_day
 from datetime import datetime, timedelta
 
 
@@ -21,6 +22,8 @@ def get_last_7():
                 }
             }
         ])
+        if not result:
+            return []
         return [word['word'] for word in list(result)]
     except Exception as e:
         print(e)
