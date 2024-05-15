@@ -26,8 +26,8 @@ function Assistant() {
         setError(null)
 
         try{
-            const response = await axios.post(`http://localhost:5000/api/v1/assistant/suggest/${context}`)
-            //const response = await axios.post(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest/${context}`)
+            //const response = await axios.post(`http://localhost:5000/api/v1/assistant/suggest/${context}`)
+            const response = await axios.post(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest/${context}`)
             console.log(response.data)
             setData(response.data)
             //setAssistantState({ ...assistantState, data: response.data });
