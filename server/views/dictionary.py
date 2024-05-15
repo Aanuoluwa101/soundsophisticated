@@ -1,6 +1,6 @@
-from views import app_views
+from soundsophisticated import app_views
 from flask import jsonify
-from .utils.dictionary import Dictionary
+from soundsophisticated.dictionary import Dictionary
 
 dictionary = Dictionary()
 

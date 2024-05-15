@@ -1,11 +1,11 @@
 import requests
 import json
-from .search_result import SearchResult
-from .assistant import Assistant
 from dotenv import load_dotenv
 import os
 import concurrent.futures
 import time
+from .search_result import SearchResult
+from .assistant import Assistant
 
 
 

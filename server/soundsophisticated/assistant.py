@@ -1,9 +1,10 @@
 import requests
-from .constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
 from dotenv import load_dotenv
 import os
 import json
-from .get_last_7 import get_last_7
+from .utils.get_last_7 import get_last_7
+from .utils.constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
+
 
 
 load_dotenv()

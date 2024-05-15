@@ -1,5 +1,5 @@
 from flask import Flask
-from views import app_views
+from soundsophisticated import app_views
 from dotenv import load_dotenv
 from flask_cors import CORS
 import os

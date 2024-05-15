@@ -1,12 +1,16 @@
-from views import app_views
-from .utils.db import words_in_contexts
+from soundsophisticated import app_views
+from soundsophisticated import words_in_contexts, word_of_the_day as wotd_collection
+# from soundsophisticated import word_of_the_day as wotd_collection
+from soundsophisticated.dictionary import Dictionary
+from soundsophisticated.assistant import Assistant
+from soundsophisticated.utils.constants import ONE_DAY
+from soundsophisticated.utils.cache import redis_client
 import json
 from bson import json_util
-from .utils.db import word_of_the_day as wotd_collection
-from .utils.dictionary import Dictionary
-from .utils.assistant import Assistant
-from .utils.constants import ONE_DAY
-from .redis_client import redis_client
+# from .utils.dictionary import Dictionary
+# from .utils.assistant import Assistant
+# from .utils.constants import ONE_DAY
+# from .redis_client import redis_client
 
 
 dictionary = Dictionary()
@@ -28,7 +32,7 @@ def suggest_word(context=None):
             if suggested_word["code"] == 400:
                 return "Invalid context: doesn't make sense", 400
             else:
-                insert_result = words_in_contexts.insert_one(suggested_word["data"])
+                words_in_contexts.insert_one(suggested_word["data"])
                 # inserted_id = str(insert_result.inserted_id)
                 # suggested_word["data"]["_id"] = inserted_id  
                 return json.loads(json_util.dumps(suggested_word["data"])), 201

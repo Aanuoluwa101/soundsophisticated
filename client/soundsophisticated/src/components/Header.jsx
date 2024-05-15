@@ -68,7 +68,9 @@ function Header(props) {
                      className={styles["search-icon"]} onClick={() => handleSearchOrSuggest(searchInput)}/>
             </div>
             <div className={styles.dev}>
-                <img src={icons.dev}/>
+                <a href="https://github.com/Aanuoluwa101/soundsophisticated">
+                    <img src={icons.dev} alt="GitHub page" />
+                </a>
             </div>
         </header>
     );
