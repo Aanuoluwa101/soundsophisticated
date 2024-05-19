@@ -44,7 +44,7 @@ function SuggestedWord({ data }) {
                 
                 <MeaningsAndExamples 
                     partOfSpeech={data.part_of_speech} 
-                    definition={data.definition} 
+                    definition={data.meaning} 
                     example={data.example}
                     context={data.context} />
                 <div className={styles["others-suggested"]}>Lookup <span onClick={() => handleClick(data.word)} className={styles.word}> {data.word}</span></div>

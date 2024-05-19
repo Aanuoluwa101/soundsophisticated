@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Loader from './Loader'
 import axios from 'axios'
 import styles from '../styles/word.module.css'
@@ -6,7 +5,10 @@ import { assistant } from './modes'
 import SuggestedWord from './SuggestedWord'
 import AssistantHome from './AssitantHome'
 import Header from './Header'
-import { usePageState } from './PageStateContext';
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
+
 
 
 
@@ -14,12 +16,20 @@ function Assistant() {
     const [data, setData] = useState(null) 
     const [error, setError] =  useState('')
     const [loading, setLoading] = useState(false)
-
-    //const { assistantState, setAssistantState } = usePageState();
+    const location = useLocation();
+    const { context } = location.state || '';
 
     const mode = assistant
 
     
+    useEffect(() => {
+        if (context){
+            console.log("got hereeeeeeeeee")
+            getSuggestion(context)
+        }
+    }, [context])
+
+
     const getSuggestion = async (context) => {
         setLoading(true)
         setData(null)
@@ -30,23 +40,23 @@ function Assistant() {
             const response = await axios.post(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest/${context}`)
             console.log(response.data)
             setData(response.data)
-            //setAssistantState({ ...assistantState, data: response.data });
             setLoading(false)
-            // console.log(response.data)
         } catch(error) {
-            setError(error.message)
-            //setAssistantState({ ...assistantState, error: error.message });
+            if (error.response) {
+                setError(error.response.data);        
+            } else {
+                setError(error.message);
+            }
             setData(null)
-            //setAssistantState({ ...assistantState, data: null });
             setLoading(false)
-            console.log(error.message)
+            //console.log(error.response.data)
         }
     }
 
     
     return (
         <>
-            <Header mode={mode} getSuggestion={getSuggestion}/>
+            <Header mode={mode} getSuggestion={getSuggestion} passedSearchInput={context}/>
             {data && <SuggestedWord data={data}/>}
             {error && <p className={styles.error}>{error}</p>}
             {loading && (

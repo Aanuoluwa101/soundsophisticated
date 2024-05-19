@@ -21,12 +21,6 @@ assistant = Assistant()
 @app_views.route('assistant/suggest/<context>', methods=['POST'])
 def suggest_word(context=None):
     if context:
-        try:
-            if int(context):
-                return "Invalid context: integer", 400
-        except ValueError:
-            pass
-            
         suggested_word = assistant.suggest_word(context)
         if suggested_word:
             if suggested_word["code"] == 400:

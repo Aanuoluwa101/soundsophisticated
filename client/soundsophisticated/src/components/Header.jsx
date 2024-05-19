@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import icons from './icons'
 import styles from '../styles/header.module.css'
 import { useNavigate } from 'react-router-dom';
@@ -11,6 +11,10 @@ function Header(props) {
     const [searchInput, setSearchInput] = useState(passedSearchInput)
     const navigate = useNavigate()
 
+
+    useEffect(() => {
+        setSearchInput(passedSearchInput);
+    }, [passedSearchInput]);
     
     const handleKeyPress = event => {
         if (event.key === "Enter") {

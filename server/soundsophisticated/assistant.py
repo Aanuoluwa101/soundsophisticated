@@ -32,6 +32,12 @@ class Assistant:
       #    }
       # }
         try:
+            if int(context):
+                return "Invalid context: integer", 400
+        except ValueError:
+            pass
+        
+        try:
             response = requests.post(Assistant.url, headers=headers, json=payload)
             #print(response)
             if response.status_code == 200:
@@ -67,7 +73,7 @@ class Assistant:
 
         # return "eerie"
         try:
-           print("entered here")
+           #print("entered here")
            response = requests.post(Assistant.url, headers=headers, json=payload)
            if response.status_code == 200:
               return response.json()["choices"][0]['message']['content']

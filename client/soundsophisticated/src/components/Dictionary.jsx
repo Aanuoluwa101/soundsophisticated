@@ -10,7 +10,7 @@ import { useLocation } from 'react-router-dom';
 
 
 
-function Dictionary(props) {
+function Dictionary() {
     const [data, setData] = useState(null) 
     const [error, setError] =  useState('')
     const [loading, setLoading] = useState(false)
@@ -35,18 +35,10 @@ function Dictionary(props) {
                 console.log(word)
                 //console.log(data)
             } 
-            // else {
-            //     setError(response.data);   
-            // }
-
-            
         } catch(error) {
-            //console.log("got here")
             if (error.response) {
-                //console.log("error.response")
                 setError(error.response.data);        
             } else {
-                //console.log("else")
                 setError(error.message);
             }
             setData(null);
@@ -56,7 +48,6 @@ function Dictionary(props) {
 
     useEffect(() => {
         if (searchInput){
-            console.log("got here")
             getMeaning(searchInput)
         }
     }, [])
