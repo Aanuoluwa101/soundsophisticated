@@ -10,7 +10,7 @@ function Header(props) {
     const { mode, getMeaning, getSuggestion } = props
     const [searchInput, setSearchInput] = useState(passedSearchInput)
     const navigate = useNavigate()
-
+    
 
     useEffect(() => {
         setSearchInput(passedSearchInput);
