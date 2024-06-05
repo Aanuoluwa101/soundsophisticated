@@ -8,7 +8,7 @@ data = [
 # on every definition in the list. 
 #get_example makes an http request to get an example for each defintion
 
-#simplified version of get_example
+#get_example
 import requests 
 base_url = 'https://examples.com/examples'
 def get_example(definition):
@@ -35,6 +35,6 @@ def process_data(data):
          executor.map(get_example, data)
 
 #Python's GIL (Global Interpreter Lock) does not have much impact on 
-#the performance of I/O-bound multi-threaded programs, making
-#parallelism in such programs achievable.
+#the performance of I/O-bound multi-threaded programs, making some
+#parallelism achievable in such programs .
 #http requests are I/O-bound, thus the shorter processing time.

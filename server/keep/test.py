@@ -118,64 +118,91 @@
 # #   }
 # # ]
 
-# # import requests
-# # import json
-# # from constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
+# def extract_definitions(data):
+#     all_definitions = []
+#     for meaning in data["meanings"]:
+#         for definition in meaning["definitions"]:
+#             lean_definition = {
+#                 "word": data["word"], 
+#                 "part_of_speech": meaning["partOfSpeech"],
+#                 "definition": definition["definition"],
+#                 "example": definition.get("example", None)
+#             }
+#             all_definitions.append(lean_definition)
 
-# # def suggest_example(word_and_definition):
-# #         messages = [{"role": "system", "content": f"{SUGGEST_EXAMPLE_SYSTEM_ROLE}"}]
-# #         messages.append({"role": "user", "content": f"{word_and_definition}"})
-# #         payload["messages"] = messages
-
-# #         try:
-# #            response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-# #            if response.status_code == 200:
-# #               return json.loads(response.json()["choices"][0]['message']['content'])
-# #         except Exception as e:
-# #            #we'll log these erros later
-# #            print(e)
+#     return all_definitions
 
 
-# # def extract_definitions(data):
-# #     all_definitions = []
-# #     for meaning in data["meanings"]:
-# #         for definition in meaning["definitions"]:
-# #             lean_definition = {
-# #                 "word": data["word"], 
-# #                 "part_of_speech": meaning["partOfSpeech"],
-# #                 "definition": definition["definition"],
-# #                 "example": definition.get("example", None)
-# #             }
-# #             all_definitions.append(lean_definition)
 
-# #     return all_definitions
+# import requests
+# import json
+# from soundsophisticated.utils.constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
+
+# def get_example(word_and_definition):
+#         messages = [{"role": "system", "content": f"{SUGGEST_EXAMPLE_SYSTEM_ROLE}"}]
+#         messages.append({"role": "user", "content": f"{word_and_definition}"})
+#         payload["messages"] = messages
+
+#         example = None
+#         try:
+#             response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+#             if response.status_code == 200:
+#                 example = json.loads(response.json()["choices"][0]['message']['content'])['example']
+#         except Exception as e:
+#             print(e)
+#         finally:
+#             word_and_definition["example"] = example
 
 
-# # definitions = [
-# #     {
-# #         'word': 'pronunciation',
-# #         'part_of_speech': 'noun',
-# #         'definition': 'The formal or informal way in which a word is made to sound when spoken.',
-# #         'example': 'What is the pronunciation of "hiccough"?'
-# #     },
-# #     {
-# #         'word': 'pronunciation',
-# #         'part_of_speech': 'noun',
-# #         'definition': 'The way in which the words of a language are made to sound when speaking.',
-# #         'example': None
-# #     },
-# #     {
-# #         'word': 'pronunciation',
-# #         'part_of_speech': 'noun',
-# #         'definition': 'The act of pronouncing or uttering something.',
-# #         'example': None
-# #     }
-# # ]
+
+
+
+
+# definitions = [
+#     {
+#         'word': 'pronunciation',
+#         'definition': 'The formal or informal way in which a word is made to sound when spoken.',
+#     },
+#     {
+#         'word': 'pronunciation',
+#         'definition': 'The way in which the words of a language are made to sound when speaking.',
+#     },
+#     {
+#         'word': 'pronunciation',
+#         'definition': 'The act of pronouncing or uttering something.',
+#     }, 
+#     {
+#             "word": "felicity",
+#             "definition": "Happiness.",
+#           },
+#           {
+#               "word": "felicity",
+#             "definition": "An apt and pleasing style in speech, writing, etc.",
+#           },
+#           {
+#               "word": "felicity",
+#             "definition": "(semiology) Reproduction of a sign with fidelity.",
+#           },
+#           {
+#               "word": "felicity",
+#             "definition": "Something that is either a source of happiness or particularly apt.",
+#           }, 
+#           {
+#               "word": "festivity",
+#             "definition": "(often pluralized) A festival or similar celebration.",
+#           },
+#           {
+#               "word": "festivity",
+#             "definition": "An experience or expression of celebratory feeling, merriment, gaiety.",
+#           }, 
+#           {
+#               "word": "concord",
+#               "definition": "A state of agreement; harmony; union.",
+#           }
+# ]
 
 
 # # def check_example(definition):
-# #     example = definition.get("example", None)
-# #     if not example:
 # #         result = suggest_example({"word": definition["word"], "definition": definition["definition"]})
 # #         if result:
 # #             example = result["example"]
@@ -183,28 +210,35 @@
 
 
 
-# # def process_definitions(all_definitions):
-# #     # for definition in all_definitions:
-# #     #     check_example(definition)
+# def process_definitions():
+#     # #21.64140820503235
+    
 
-# #     with concurrent.futures.ThreadPoolExecutor() as executor:
-# #         executor.map(check_example, all_definitions)
+#     #6.002205848693848
+#     with concurrent.futures.ThreadPoolExecutor() as executor:
+#         executor.map(suggest_example, definitions)
         
-# #     print(all_definitions)
+#     print(definitions)
 
 
-# # import time
-# # import concurrent.futures
+# def process_data(data):
+#     for definition in data:
+#         get_example(definition)
 
 
-# # if __name__ == "__main__":
-# #     start = time.time()
-# #     all_defs = extract_definitions(data[0])
-# #     processed = process_definitions(all_defs)
-# #     end = time.time()
+# import time
+# import concurrent.futures
 
-# #     print(f"Took {end-start} seconds")
-# #print(extract_definitions(data[0]))
+
+# if __name__ == "__main__":
+#     start = time.time()
+#     #all_defs = extract_definitions(data[0])
+#     #processed = process_definitions(all_defs)
+#     process_definitions()
+#     end = time.time()
+
+#     print(f"Took {end-start} seconds")
+#print(extract_definitions(data[0]))
 
 
 
@@ -212,9 +246,26 @@
 
 # print(datetime.now())
 
-def f(x,l=[]):
-    for i in range(x):
-        l.append(i*i)
-        print(l)
+# def f(x,l=[]):
+#     for i in range(x):
+#         l.append(i*i)
+#         print(l)
 
-f(3)
+# f(3)
+
+
+# lst = ["one", 'two', 'three']
+
+# template = """say hello to {lst}
+#                 code first""".format(lst = lst)
+# print(template)
+
+import timeit
+
+# Using f-string
+f_string_time = timeit.timeit('name = "World"; result = f"Hello, {name}"', number=1000000)
+print(f"F-string time: {f_string_time:.6f}")
+
+# Using .format() method
+format_time = timeit.timeit('name = "World"; result = "Hello, {}".format(name)', number=1000000)
+print(f".format() time: {format_time:.6f}")

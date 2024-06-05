@@ -1,7 +1,12 @@
 from flask import Blueprint
 from .utils.db import ping_db, word_of_the_day, words_in_contexts
 from .utils.cache import ping_cache
+import logging
 
+
+logging.basicConfig(filename='errors.log', level=logging.ERROR)
+logger = logging.getLogger('werkzeug').setLevel(logging.ERROR)
+logger = logging.getLogger('soundsophisticated')
 
 
 result = ping_db()

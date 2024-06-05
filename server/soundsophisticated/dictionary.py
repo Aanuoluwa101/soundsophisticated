@@ -6,6 +6,8 @@ import concurrent.futures
 import time
 from .search_result import SearchResult
 from .assistant import Assistant
+from . import logger
+from soundsophisticated.utils.generate_error import generate_error
 
 
 
@@ -54,9 +56,11 @@ class Dictionary:
     def check_example(self, definition):
         example = definition.get("example", None)
         if not example:
-            result = assistant.suggest_example({"word": definition["word"], "definition": definition["definition"]})
-            if result:
-                example = result["example"]
+            response = assistant.example_by_definition({"word": definition["word"], "definition": definition["definition"]})
+            if response.status_code == 200:
+                example = json.loads(json.loads(response.text)['choices'][0]['message']['content'])['example']
+            else: 
+                logger.error(generate_error(response))
         definition["example"]  = example
 
     def extract_definitions(self):
