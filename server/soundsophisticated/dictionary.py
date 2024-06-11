@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import os
 import concurrent.futures
 import time
-from .search_result import SearchResult
 from .assistant import Assistant
 from . import logger
 from soundsophisticated.utils.generate_error import generate_error
@@ -17,6 +16,15 @@ assistant = Assistant()
 class Dictionary:
     url = os.getenv('DICTIONARYAPI_URL')
 
+    class SearchResult:
+        def __init__(self, status_code, data) -> None:
+            self.status_code = status_code
+            self.data = data
+
+
+        def __str__(self) -> str:
+            return json.dumps({"code": self.status_code, "data": self.data})
+
     def search(self, word):
         try:
             response = requests.get(f"{Dictionary.url}/{word}")
@@ -25,16 +33,16 @@ class Dictionary:
 
                 result = self.process_search_result()
                 # return json.dumps(data), 200
-                return SearchResult(200, result)
+                return self.SearchResult(200, result)
                 #return data
             elif response.status_code == 404:
-                return SearchResult(404, json.loads(response.text)["message"])
+                return self.SearchResult(404, json.loads(response.text)["message"])
             else: 
-                return SearchResult(500, "Server Error")
+                return self.SearchResult(500, "Server Error")
         except Exception as e:
             print("here")
             #raise e
-            return SearchResult(500, "Server Error")
+            return self.SearchResult(500, "Server Error")
 
     def extract_pronunciation(self):
         phonetics = self.data["phonetics"]

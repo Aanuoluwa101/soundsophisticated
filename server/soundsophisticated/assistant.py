@@ -1,7 +1,6 @@
 import requests
 from dotenv import load_dotenv
 import os
-import json
 from .utils.get_last_7 import get_last_7
 from .utils.constants import (
     WORD_PROPMT_SYSTEM_ROLE,
@@ -12,10 +11,6 @@ from .utils.constants import (
     headers,
     payload   
 )
-
-#from utils.get_last_7 import get_last_7
-#from utils.constants import SUGGEST_WORD_OF_THE_DAY_SYSTEM_ROLE, SUGGEST_EXAMPLE_SYSTEM_ROLE, SUGGEST_WORD_SYSTEM_ROLE, payload, headers
-
 
 
 load_dotenv()
@@ -35,38 +30,6 @@ class Assistant:
         def __str__(self):
             return f"{self.text}, {self.status_code}"
         
-
-    # def suggest_word(self, context):
-    #     messages = [{"role": "system", "content": f"{SUGGEST_WORD_SYSTEM_ROLE}"}]
-    #     messages.append({"role": "user", "content": f"{context}"})
-    #     payload["messages"] = messages
-
-    #   #   return {
-    #   #       "code": 200,
-    #   #       "data": {
-    #   #       "context": "trying to impress my music student",
-    #   #       "word": "virtuosic",
-    #   #       "definition": "extremely skillful",
-    #   #       "example": "Your performance displayed a virtuosic mastery of the instrument, showcasing exceptional skill and emotion.",
-    #   #       "part_of_speech": "adjective",
-    #   #       "has_other_meanings": True
-    #   #    }
-    #   # }
-    #     try:
-    #         if int(context):
-    #             return "Invalid context: integer", 400
-    #     except ValueError:
-    #         pass
-        
-    #     try:
-    #         response = requests.post(Assistant.url, headers=headers, json=payload)
-    #         #print(response)
-    #         if response.status_code == 200:
-    #             return json.loads(response.json()["choices"][0]['message']['content'])
-    #     except Exception as e:
-    #         print("entered here")
-    #         #we'll log these erros later
-    #         print(e)
 
     def call_chatgpt(self, system_role, prompt):
         #print(prompt)
@@ -116,22 +79,16 @@ class Assistant:
         #         }
 
     def word_of_the_day(self) -> str:
-        #last_7 = get_last_7()
-        last_7 = ['eerie', 'resplendent', 'audacious', 'gory', 'sultry']
+        last_7 = get_last_7()
+        print(last_7)
+        #last_7 = ['eerie', 'resplendent', 'audacious', 'gory', 'sultry']
         system_role = WORD_OF_THE_DAY_PROMPT_SYSTEM_ROLE
         prompt = f"suggest a word for the day. Avoid the following words: {last_7}. Your response should be the word only"
         
 
         return self.call_chatgpt(system_role, prompt)
         # return "eerie"
-        # try:
-        #    #print("entered here")
-        #    response = requests.post(Assistant.url, headers=headers, json=payload)
-        #    if response.status_code == 200:
-        #       return response.json()["choices"][0]['message']['content']
-        # except Exception as e:
-        #    #we'll log these erros later
-        #    print(e)
+
 
           
 
