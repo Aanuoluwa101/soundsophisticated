@@ -12,7 +12,7 @@ const DictionaryHome = () => {
 
     useEffect(() => {
         const getWordOfTheDay = async () => {
-            console.log("calling get word of the day");
+            //console.log("calling get word of the day");
             setData(null);
             setError(null);
             setLoading(true)
@@ -23,7 +23,7 @@ const DictionaryHome = () => {
                     const word = response.data;
                     setData(word);
                     // setLoading(false)
-                    console.log(word);
+                    //console.log(word);
                 }
             } catch (error) {
                 // setLoading(false)

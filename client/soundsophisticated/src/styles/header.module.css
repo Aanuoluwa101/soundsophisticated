@@ -71,26 +71,19 @@ header {
 
 
 /* SEARCH BAR */
-.search-bar {
+/* .search-bar {
     position: relative;
     display: flex;
     align-items: center;
     width: 50%;
-    /* border: 1px solid #ADD8E6; */
-    /* border: .5px solid black; */
-    /* padding: .05rem; */
     border-radius: 15px;
-    /* background-color: #59c174; */
-    /* background-color: black; */
     margin: 0 auto;
     margin-left: 0;
-    /* border: 2px solid orange; */
 }
 .search-input {
     flex: 1;
     padding: .5rem;
     font-size: 16px;
-    /* border: 1px solid #ccc; */
     border-radius: 10px;
 
 }
@@ -108,8 +101,6 @@ header {
 
 button {
 padding: .5rem;
-/* background-color: #388087; */
-/* background-color: #379683; */
 background-color: #2C2E48;
 border-radius: 5px;
 margin-right: .2rem;
@@ -117,8 +108,43 @@ cursor: pointer;
 color: white;
 font-weight: bold;
 font-size: 17px;
+} */
+
+
+.search-bar-container {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: center;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
+.search-input {
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.dev img {
+    width: 30px;
+    height: 30px;
+}
+
+.hidden {
+    display: none;
+}
 
 /*SEARCH BAR END */

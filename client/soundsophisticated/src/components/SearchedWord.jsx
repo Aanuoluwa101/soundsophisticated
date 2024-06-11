@@ -17,7 +17,7 @@ function SearchedWord({ data }) {
 
     useEffect(() => {
         //console.log("idx useEffect")
-        console.log(data)
+        //console.log(data)
         if (meanings)
             setMeaning(meanings[idx])
             // setColorIndex((colorIndex + 1) % colors.length);

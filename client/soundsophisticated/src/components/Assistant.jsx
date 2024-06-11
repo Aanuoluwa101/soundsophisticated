@@ -30,15 +30,19 @@ function Assistant() {
     }, [context])
 
 
-    const getSuggestion = async (context) => {
+    const getSuggestion = async (word, context) => {
         setLoading(true)
         setData(null)
         setError(null)
 
+        //console.log(word)
+        //console.log(context)
+        //const baseUrl = 'http://localhost:5000/api/v1'
+        const baseUrl = 'https://soundsohpisticated.onrender.com/api/v1'
+        const url = `${baseUrl}/assistant/suggest?word=${encodeURIComponent(word)}&context=${encodeURIComponent(context)}`;
         try{
-            //const response = await axios.post(`http://localhost:5000/api/v1/assistant/suggest/${context}`)
-            const response = await axios.post(`https://soundsohpisticated.onrender.com/api/v1/assistant/suggest/${context}`)
-            console.log(response.data)
+            const response = await axios.post(url)
+            //console.log(response.data)
             setData(response.data)
             setLoading(false)
         } catch(error) {
@@ -56,7 +60,9 @@ function Assistant() {
     
     return (
         <>
-            <Header mode={mode} getSuggestion={getSuggestion} passedSearchInput={context}/>
+            <Header mode={mode} getSuggestion={getSuggestion} 
+                                passedSearchInput={context}
+                                />
             {data && <SuggestedWord data={data}/>}
             {error && <p className={styles.error}>{error}</p>}
             {loading && (

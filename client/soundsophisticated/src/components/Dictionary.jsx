@@ -17,6 +17,8 @@ function Dictionary() {
     const location = useLocation();
     const { searchInput } = location.state || '';
 
+    const [initialLoading, setInitialLoading] = useState(true); 
+
     const mode = dictionary
     
     const getMeaning = async (searchInput) => {
@@ -30,9 +32,8 @@ function Dictionary() {
             if (response.status == 200){
                 const word = response.data
                 //console.log(word)
-                setLoading(false)
                 setData(word)
-                console.log(word)
+                //console.log(word)
                 //console.log(data)
             } 
         } catch(error) {
@@ -42,15 +43,20 @@ function Dictionary() {
                 setError(error.message);
             }
             setData(null);
-            setLoading(false)
+        } finally {
+            setLoading(false);
+            setInitialLoading(false);
         }
     }
 
     useEffect(() => {
+        //console.log("a search input was passed")
         if (searchInput){
             getMeaning(searchInput)
+        }  else {
+            setInitialLoading(false);  // No search input, set initial loading to false immediately
         }
-    }, [])
+    }, [searchInput])
         
 
         return (
@@ -59,7 +65,7 @@ function Dictionary() {
                 {data && <SearchedWord data={data}/>}
                 {error && <p className={styles.error}>{error}</p>}
                 {loading && <div className={styles.loader}><Loader/></div>}
-                {!data && !error && !loading && <DictionaryHome/>}
+                {!data && !error && !loading && !initialLoading && <DictionaryHome/>}
             </>  
         );     
 }
