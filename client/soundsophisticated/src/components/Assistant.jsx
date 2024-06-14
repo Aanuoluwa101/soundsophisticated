@@ -39,9 +39,12 @@ function Assistant() {
         //console.log(context)
         //const baseUrl = 'http://localhost:5000/api/v1'
         const baseUrl = 'https://soundsohpisticated.onrender.com/api/v1'
-        const url = `${baseUrl}/assistant/suggest?word=${encodeURIComponent(word)}&context=${encodeURIComponent(context)}`;
+        const url = `${baseUrl}/assistant/suggest`;
         try{
-            const response = await axios.post(url)
+            const response = await axios.post(url, {
+                word: word,
+                context: context
+            })
             //console.log(response.data)
             setData(response.data)
             setLoading(false)

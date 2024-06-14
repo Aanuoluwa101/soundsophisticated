@@ -23,8 +23,9 @@ assistant = Assistant()
 @app_views.route('assistant/suggest', methods=['GET', 'POST'])
 def word_in_context():
     if request.method == 'POST':
-        word = request.args.get('word', default=None)
-        context = request.args.get('context', default=None)
+        data = request.get_json()
+        word = data.get('word', default=None)
+        context = data.get('context', default=None)
 
         response = assistant.word_in_context(word, context)
         if response.status_code == 200:
@@ -33,7 +34,8 @@ def word_in_context():
                 print("got here")
                 return "Invalid word or context", 400
             else:
-                #words_in_contexts.insert_one(word["data"])  
+                word["data"]["context"] = context if context else "any"
+                words_in_contexts.insert_one(word["data"])  
                 return json.loads(json_util.dumps(word["data"])), 201
         elif response.status_code == 400:
             return response.text, response.status_code

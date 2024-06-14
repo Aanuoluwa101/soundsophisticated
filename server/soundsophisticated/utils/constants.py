@@ -8,7 +8,6 @@ SYSTEM_ROLE = """You are a helpful assistant on an application that suggests new
                   example sentences in a given context or any context (if none is provided), that can help users
                   sound sophisticated in their speaking or writing."""
  
-keep = "Suggest a word in the context: {context}. response format is"
 WORD_PROPMT_SYSTEM_ROLE = """You are a helpful assistant on an application that suggests new words in a given context.
                   You will be given a context and your response is to be in the format
                   {
