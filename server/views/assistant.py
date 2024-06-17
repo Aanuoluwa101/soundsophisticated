@@ -24,8 +24,8 @@ assistant = Assistant()
 def word_in_context():
     if request.method == 'POST':
         data = request.get_json()
-        word = data.get('word', default=None)
-        context = data.get('context', default=None)
+        word = data.get('word', None)
+        context = data.get('context', None)
 
         response = assistant.word_in_context(word, context)
         if response.status_code == 200:
