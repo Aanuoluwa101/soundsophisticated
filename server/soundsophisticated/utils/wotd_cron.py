@@ -13,7 +13,7 @@ logger = logging.getLogger()
 
 
 
-def  word_of_the_day():
+def word_of_the_day():
     assistant = Assistant()
     dictionary = Dictionary()
 
@@ -29,6 +29,9 @@ def  word_of_the_day():
         print(wotd)
     else: 
         logger.error(f"Error Generating word of the day at {str(datetime.now())}", str(search_result))
+
+def say_hello():
+    print("Hello world")
        
 
 if __name__ == '__main__':

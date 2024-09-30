@@ -1,9 +1,36 @@
-flask==3.0.3
-python-dotenv==1.0.1
-pymongo==4.6.3
-requests==2.31.0
-flask-cors==4.0.0
-psycopg2==2.9.9
-gunicorn==21.2.0
-flask_caching==2.3.0
-redis==5.0.4
+it might not necessarily be new thing but maybe it offers 
+an easier and more seamless way of doing what already is
+
+fits into your workflows better
+puts things far and separated together
+
+
+ context assembly engine
+
+
+code auto complete
+code explanation
+code debug
+chat bot
+code translation
+
+workspace context
+code refactoring
+
+
+SOC-2 compliance
+
+
+ interactions with other 
+subsystems, but also support, maintenance, upgrades, add-ons, 
+and a bunch of other dimensions that are critically important to software design and engineering.
+
+
+https://dataforcecommunity.transperfect.com/project/tourmaline-africa
+ 	https://dataforcecommunity.transperfect.com/project/saturn-email-3
+
+https://dataforce.recruitee.com/o/freelance-remote-transcriber-english-us-aviation
+
+
+==> what I really wanna build is you
+==> don't let go just yet
