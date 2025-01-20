@@ -1,36 +1,5 @@
-it might not necessarily be new thing but maybe it offers 
-an easier and more seamless way of doing what already is
-
-fits into your workflows better
-puts things far and separated together
-
-
- context assembly engine
-
-
-code auto complete
-code explanation
-code debug
-chat bot
-code translation
-
-workspace context
-code refactoring
-
-
-SOC-2 compliance
-
-
- interactions with other 
-subsystems, but also support, maintenance, upgrades, add-ons, 
-and a bunch of other dimensions that are critically important to software design and engineering.
-
-
-https://dataforcecommunity.transperfect.com/project/tourmaline-africa
- 	https://dataforcecommunity.transperfect.com/project/saturn-email-3
-
-https://dataforce.recruitee.com/o/freelance-remote-transcriber-english-us-aviation
-
-
-==> what I really wanna build is you
-==> don't let go just yet
+flask 
+dotenv
+requests
+redis
+pymongo

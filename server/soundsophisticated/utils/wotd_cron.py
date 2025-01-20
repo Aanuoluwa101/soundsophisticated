@@ -32,6 +32,9 @@ def word_of_the_day():
 
 def say_hello():
     print("Hello world")
+
+def another_cron():
+    print("another cron")
        
 
 if __name__ == '__main__':
