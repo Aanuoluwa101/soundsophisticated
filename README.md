@@ -1,4 +1,4 @@
-# Wordbox API Documentation
+# SoundSophisticated API Documentation
 
 API documentation for Wordbox (currently soundsophisticated). 
 
